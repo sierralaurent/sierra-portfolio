@@ -11,6 +11,7 @@ const config: Config = {
       'sans': ['montserrat']
     },
     extend: {
+      
       colors: {
         'Emerald':'#244B5A',
         'Sage': '#85AF9A',

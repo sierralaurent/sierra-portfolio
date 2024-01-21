@@ -15,20 +15,10 @@ export default function Home() {
           height={400}
           alt='Profile Picture'
         />
-        <div className={'flex flex-col gap-10'}>
-          <h1 className={'text-5xl'}>Hi, I'm Sierra.</h1>
+        <div className={'flex'}>
+          <h1 className={'text-5xl'}>Hi I'm Sierra.</h1>
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
-          <div className={'flex flex-row items-center gap-5'}>
-            <Image
-            className={'py-3'}
-            src='/images/icons/location.png'
-            width={25}
-            height={25}
-            alt='Location Icon'
-            />
-            <h3 className={'text-xl'}>Delta, British Columbia</h3>
-          </div>
-          
+          <h3 className={'text-xl'}>Delta, British Columbia</h3>
         </div>
       </div>
     </main>

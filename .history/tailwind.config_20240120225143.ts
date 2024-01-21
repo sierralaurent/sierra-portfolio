@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['montserrat']
+      'sans': ['montserrat-medium']
     },
     extend: {
       colors: {

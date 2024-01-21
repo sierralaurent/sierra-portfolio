@@ -8,13 +8,16 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['montserrat']
-    },
+      // 'sans': ['montserrat']
+    }
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
       colors: {
-        'Emerald':'#244B5A',
-        'Sage': '#85AF9A',
-        'Cool-Gray': '#D0CFCD'
+        'Emerald':'#244B5A'
       }
     },
     screens: {

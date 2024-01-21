@@ -8,7 +8,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['montserrat']
+      'sans': ['montserrat'],
+      'bold': ['bold']
     },
     extend: {
       colors: {

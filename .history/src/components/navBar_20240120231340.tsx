@@ -9,7 +9,7 @@ export default function NavBar() {
         <Link href="/Projects"><h1 className={'hover:text-Sage'}>Projects</h1></Link>
         <Link href="/Extras"><h1 className={'hover:text-Sage'}>Extras</h1></Link>
       </div>
-      <Link href="/"><div>
+      <Link href="/index"><div>
       <Image
           className={'py-3'}
           src='/images/icons/LogoMark White@300x.png'

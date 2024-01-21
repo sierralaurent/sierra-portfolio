@@ -16,9 +16,9 @@ export default function Home() {
           alt='Profile Picture'
         />
         <div className={'flex flex-col gap-10'}>
-          <h1 className={'text-5xl'}>Hi, I'm Sierra.</h1>
+          <h1 className={'text-5xl'}>Hi I'm Sierra.</h1>
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
-          <div className={'flex flex-row items-center gap-5'}>
+          <div className={'flex flex-row'}>
             <Image
             className={'py-3'}
             src='/images/icons/location.png'
