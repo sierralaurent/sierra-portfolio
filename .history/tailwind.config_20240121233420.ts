@@ -28,7 +28,18 @@ const config: Config = {
       // => @media (min-width: 1280px) { ... }
     }
   },
-  
+  icons: {
+    icon: [
+      {
+        url: '/images/Black/Logo Black@300x.png',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/images/White/Logo White@300x.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+  },
   plugins: [],
 }
 

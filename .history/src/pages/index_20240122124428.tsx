@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
-    <main className={`flex min-h-screen flex-col items-center p-10 text-black`}>
+    <main className={`flex min-h-screen flex-col items-center p-10 text-black overflow-y-scroll scrollbar`}>
       <div className={'flex flex-row items-center gap-20'}>
       <Image
           className={'py-3'}

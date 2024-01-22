@@ -2,8 +2,6 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Head from 'next/head'
-import ScrollBar from '@/components/scrollBar'
-
 export default function Home() {
   return (
     <>
@@ -40,7 +38,6 @@ export default function Home() {
       </div>
     </main>
     <Footer />
-    <ScrollBar />
     </>
   )
 }

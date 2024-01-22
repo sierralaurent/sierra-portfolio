@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 
 export default function NavBar() {
   return (
-    <>
+    <Head>
     <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl`}>
+      <link rel="icon" href="/Icon.ico" /> 
       <div className={'flex flex-row gap-x-5'}>
         <Link href="/Projects"><h1 className={'hover:text-Sage'}>Projects</h1></Link>
         <Link href="/Extras"><h1 className={'hover:text-Sage'}>Extras</h1></Link>
@@ -24,6 +26,6 @@ export default function NavBar() {
         <Link href="/Contact"><h1 className={'hover:text-Sage'}>Contact</h1></Link>
       </div>
     </main>
-    </>
+    </Head>
   )
 }

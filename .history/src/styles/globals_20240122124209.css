@@ -2,18 +2,15 @@
 
 *::-webkit-scrollbar {
   width: 15px;
-  height: 15px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #D0CFCD;
-  border-radius: 100vh;
+  background: var(--Emerald);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: '#D0CFCD';
+  background-color: var(--Sage);
   border-radius: 20px;
-  background: #85AF9A;
 }
 
 

@@ -6,6 +6,7 @@ export default function NavBar() {
   return (
     <>
     <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl`}>
+      <link rel="icon" href="/Icon.ico" /> 
       <div className={'flex flex-row gap-x-5'}>
         <Link href="/Projects"><h1 className={'hover:text-Sage'}>Projects</h1></Link>
         <Link href="/Extras"><h1 className={'hover:text-Sage'}>Extras</h1></Link>

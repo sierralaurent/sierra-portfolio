@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
     <Head>
-        <title>Sierra Laurent | About</title>
+        <title>Sierra Laurent | Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

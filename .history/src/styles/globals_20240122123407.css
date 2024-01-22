@@ -1,19 +1,18 @@
 @import "tailwindcss/base";
 
 *::-webkit-scrollbar {
-  width: 15px;
-  height: 15px;
+  width: 30px;
+  color: 'Sage';
 }
-
 *::-webkit-scrollbar-track {
-  background: #D0CFCD;
-  border-radius: 100vh;
+  background: var(--Cool-Gray);
+  border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: '#D0CFCD';
-  border-radius: 20px;
-  background: #85AF9A;
+  background-color: var(--Cool-Gray);
+  border-radius: 14px;
+  border: 3px solid var(--Emerald);
 }
 
 
@@ -32,13 +31,17 @@
 @media (prefers-color-scheme: light) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --Emerald: '#244B5A';
-    --Sage: '#85AF9A';
-    --Cool-Gray: '#D0CFCD';
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
