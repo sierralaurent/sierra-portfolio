@@ -29,7 +29,7 @@ export default function Projects() {
         <div className={'flex flex-col gap-10'}>
           <h1 className={'text-5xl'}>PicTok</h1>
           <h3 className={'text-xl'}>A photo sharing app for the visually impaired community that uses image recognition technology to enhance the experience of photo sharing with sound cues and text to speech. </h3>
-          <Link href="/PicTok"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See Case Study</button></Link>
+          <Link href=""><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See Case Study</button></Link>
         </div>
       </div>
       <div className={'flex flex-row items-center gap-20 p-60 py-20'}>
@@ -40,7 +40,7 @@ export default function Projects() {
         </div>
         <Image
           className={'py-3'}
-          src='/images/Mock-Up New Habits.png'
+          src='/images/Mock-Up New Hbaits.png'
           width={400}
           height={400}
           alt='Profile Picture'

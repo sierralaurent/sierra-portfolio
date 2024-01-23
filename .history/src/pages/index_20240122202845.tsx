@@ -13,11 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
-    <main className={`flex min-h-screen flex-col items-center p-20 text-black gap-40`}>
+    <main className={`flex min-h-screen flex-col items-center p-10 text-black gap-40`}>
       <div className={'flex flex-row items-center gap-20'}>
       <Image
           className={'py-3'}
-          src='/images/profile_picture.jpg'
+          src='/images/icons/profile_picture.jpg'
           width={400}
           height={400}
           alt='Profile Picture'
@@ -39,7 +39,7 @@ export default function Home() {
             height={300}
             alt='PicTok App Mock-Up'
           />
-          <h2 className={'text-xl'}>PicTok</h2>
+          <h2>PicTok</h2>
           </div>
           <div className={'flex flex-col items-center'}>
           <Image
@@ -49,10 +49,10 @@ export default function Home() {
             height={300}
             alt='PicTok App Mock-Up'
           />
-          <h2 className={'text-xl'}>New Habits</h2>
+          <h2>New Habits</h2>
           </div>
           <div>
-          <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
+          <Link href=""><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Head from 'next/head'
-import Link from 'next/link'
+import ScrollBar from '@/components/scrollBar'
 
 export default function Home() {
   return (
@@ -13,11 +13,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
-    <main className={`flex min-h-screen flex-col items-center p-20 text-black gap-40`}>
+    <main className={`flex min-h-screen flex-col items-center p-10 text-black`}>
       <div className={'flex flex-row items-center gap-20'}>
       <Image
           className={'py-3'}
-          src='/images/profile_picture.jpg'
+          src='/images/icons/profile_picture.jpg'
           width={400}
           height={400}
           alt='Profile Picture'
@@ -27,10 +27,9 @@ export default function Home() {
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
         </div>
       </div>
-
-      <div className={'flex flex-col gap-10'}>
-        <h1 className={'text-3xl'}>Recent Projects</h1>
-        <div className={'flex flex-row items-center gap-10'}>
+      <div className={'flex flex-col gap-20'}>
+        <h1>Recent Projects</h1>
+        <div className={'flex flex-row justify-between'}>
           <div className={'flex flex-col items-center'}>
           <Image
             className={'py-3'}
@@ -39,7 +38,7 @@ export default function Home() {
             height={300}
             alt='PicTok App Mock-Up'
           />
-          <h2 className={'text-xl'}>PicTok</h2>
+          <h2>PicTok</h2>
           </div>
           <div className={'flex flex-col items-center'}>
           <Image
@@ -49,15 +48,13 @@ export default function Home() {
             height={300}
             alt='PicTok App Mock-Up'
           />
-          <h2 className={'text-xl'}>New Habits</h2>
-          </div>
-          <div>
-          <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
+          <h2>New Habits</h2>
           </div>
         </div>
       </div>
     </main>
     <Footer />
+    <ScrollBar />
     </>
   )
 }

@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
-    <main className={`flex min-h-screen flex-col items-center p-20 text-black gap-40`}>
+    <main className={`flex min-h-screen flex-col items-center p-40 text-black gap-40`}>
       <div className={'flex flex-row items-center gap-20'}>
       <Image
           className={'py-3'}
@@ -52,7 +52,7 @@ export default function Home() {
           <h2 className={'text-xl'}>New Habits</h2>
           </div>
           <div>
-          <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
+          <Link href=""><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
           </div>
         </div>
       </div>

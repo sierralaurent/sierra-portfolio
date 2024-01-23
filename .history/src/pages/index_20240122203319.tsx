@@ -52,7 +52,7 @@ export default function Home() {
           <h2 className={'text-xl'}>New Habits</h2>
           </div>
           <div>
-          <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
+          <Link href=""><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
           </div>
         </div>
       </div>
