@@ -18,7 +18,7 @@ export default function Projects() {
         <h1 className={'text-5xl'}>See my big projects here</h1>
         <h3 className={'text-2xl'}>As well as some smaller projects on the 'extras' page</h3>
       </div>
-      <div className={'flex flex-row items-center gap-20 p-60 py-20'}>
+      <div className={'flex flex-row items-center gap-20 p-60 py-20 hover:scale-110 transition-transform'}>
       <Image
           className={'py-3'}
           src='/images/Mock-Up Pictok.png'
@@ -29,10 +29,10 @@ export default function Projects() {
         <div className={'flex flex-col gap-10'}>
           <h1 className={'text-5xl'}>PicTok</h1>
           <h3 className={'text-xl'}>A photo sharing app for the visually impaired community that uses image recognition technology to enhance the experience of photo sharing with sound cues and text to speech. </h3>
-          <Link href="/PicTok"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See Case Study</button></Link>
+          <Link href="/PicTok"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>See Case Study</button></Link>
         </div>
       </div>
-      <div className={'flex flex-row items-center gap-20 p-60 py-20'}>
+      <div className={'flex flex-row items-center gap-20 p-60 py-20 hover:scale-110 transition-transform'}>
         <div className={'flex flex-col gap-10 text-right'}>
           <h1 className={'text-5xl '}>New Habits</h1>
           <h3 className={'text-xl'}>The New Habits web app was created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends of those suffering. There is a quiz within the app that asks the users a set of questions outlining the biggest and most noticeable effects of substance misuse disorder.</h3>

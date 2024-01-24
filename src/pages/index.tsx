@@ -29,9 +29,9 @@ export default function Home() {
       </div>
 
       <div className={'flex flex-col gap-10'}>
-        <h1 className={'text-3xl'}>Recent Projects</h1>
+        <h1 className={'text-3xl font-bold'}>Recent Projects</h1>
         <div className={'flex flex-row items-center gap-10'}>
-          <div className={'flex flex-col items-center'}>
+          <Link href="/PicTok"><div className={'flex flex-col items-center hover:scale-110 transition-transform'}>
           <Image
             className={'py-3'}
             src='/images/Mock-Up PicTok.png'
@@ -39,9 +39,9 @@ export default function Home() {
             height={300}
             alt='PicTok App Mock-Up'
           />
-          <h2 className={'text-xl'}>PicTok</h2>
-          </div>
-          <div className={'flex flex-col items-center'}>
+          <h2 className={'text-xl font-semibold'}>PicTok</h2>
+          </div></Link>
+          <Link href="/NewHabits"><div className={'flex flex-col items-center hover:scale-110 transition-transform'}>
           <Image
             className={'py-3'}
             src='/images/Mock-Up New Habits.png'
@@ -49,8 +49,8 @@ export default function Home() {
             height={300}
             alt='PicTok App Mock-Up'
           />
-          <h2 className={'text-xl'}>New Habits</h2>
-          </div>
+          <h2 className={'text-xl font-semibold'}>New Habits</h2>
+          </div></Link>
           <div>
           <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See All Projects</button></Link>
           </div>

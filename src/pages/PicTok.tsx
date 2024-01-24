@@ -15,7 +15,7 @@ export default function PicTok() {
     <NavBar /> 
     <main className={`flex min-h-screen flex-col items-center text-black p-48`}>
       <div className={`flex flex-row items-center justify-between w-full py-8`}>
-        <h1 className={'text-5xl'}>PicTok</h1>
+        <h1 className={'text-5xl font-bold'}>PicTok</h1>
         <Link href="https://pictok.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>View App</button></Link>
       </div>
       <div className={'py-8 text-xl'}>
@@ -24,7 +24,7 @@ export default function PicTok() {
             </p>
       </div>
         <Image
-          className={'py-3 w-screen'}
+          className={'py-3 w-screen hover:scale-110 transition-transform'}
           src='/images/Mock-Up PicTok-Long.png'
           width={2000}
           height={400}
@@ -48,7 +48,7 @@ export default function PicTok() {
             </div>
         </div>
         <div className={'flex flex-col gap-8'}>
-            <h1 className={'text-3xl'}>Ideation</h1>
+            <h1 className={'text-3xl font-bold'}>Ideation</h1>
             <p className={'text-xl'}>Starting at the very beginning, the idea of PikTok, was overall too broad and too vague, starting with: 
                 “an app for blind people that can share photos with other blind people”
                 But it was something. After a session of deliberation, all 8 team members were able to put their ideas together to create a good, solid idea for an app. Nothing too broad, as it was inclusive and descriptive:
@@ -77,7 +77,7 @@ export default function PicTok() {
                     />
             </div>
             <div className={'flex flex-col gap-10'}>
-                <h1 className={'text-4xl'}>Challenges</h1>
+                <h1 className={'text-4xl font-bold'}>Challenges</h1>
                 <p className={'text-xl'}>Designing and creating an app for use by the visually impaired community was going to be a challenge, with many barriers. Not only is there the
                     challenge of creating an accessible app for everyone, but the main focus is for the visually impaired, a market that encounters inaccessibility
                     for many everyday things, including many applications and websites.</p>
@@ -107,7 +107,7 @@ export default function PicTok() {
                     <h3 className={'text-xl'}>User Flow Chart: A map/chart showing the flow of how someone would go through an app</h3>
                 </div>
             <div className={`flex flex-row items-center justify-between w-full py-8`}>
-                <h1 className={'text-5xl'}>Results</h1>
+                <h1 className={'text-5xl font-bold'}>Results</h1>
                 <Link href="https://pictok.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>View App</button></Link>
             </div>
             <div>

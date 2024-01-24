@@ -1,0 +1,46 @@
+@import "tailwindcss/base";
+
+*::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #D0CFCD;
+  border-radius: 100vh;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: '#D0CFCD';
+  border-radius: 20px;
+  background: #85AF9A;
+}
+
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --Emerald: '#244B5A';
+  --Sage: '#85AF9A';
+  --Cool-Gray: '#D0CFCD';
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --Emerald: '#244B5A';
+    --Sage: '#85AF9A';
+    --Cool-Gray: '#D0CFCD';
+  }
+}
+
+body {
+  
+  @apply min-h-screen flex items-center justify-center bg-cover bg-no-repeat bg-center;
+  background-image: url('/Paper_Texture.png');
+  
+}
