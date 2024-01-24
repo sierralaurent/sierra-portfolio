@@ -14,20 +14,18 @@ const config: Config = {
       colors: {
         'Emerald':'#244B5A',
         'Sage': '#85AF9A',
-        'CoolGray': '#D0CFCD',
-        'White': '#FFFFFF'
+        'Cool-Gray': '#D0CFCD'
       }
     },
     screens: {
+      'mobile': '430px',
+      // => @media (min-width: 414px) { ... }
 
-      'mobile': {'min': '350px', 'max': '767px'},
-      // => @media (min-width: 350px and max-width: 767px) { ... }
+      'tablet': '432px',
+      // => @media (min-width: 820px) { ... }
 
-      'tablet': {'min': '768px', 'max': '1023px'},
-      // => @media (min-width: 768px and max-width: 1023px) { ... }
-
-      'desktop': {'min': '1024px'},
-      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+      'desktop': '820px',
+      // => @media (min-width: 1280px) { ... }
     }
   },
   

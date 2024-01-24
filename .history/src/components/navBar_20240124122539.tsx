@@ -32,7 +32,7 @@ const optionsWithLinks = [
         <Link href="/About"><h1 className={'hover:text-Sage'}>About</h1></Link>
         <Link href="/Contact"><h1 className={'hover:text-Sage'}>Contact</h1></Link>
       </div>
-      <div className={'desktop:hidden'}>
+      <div className={'desktop:hidden xldesktop:hidden'}>
       <Dropdown items={optionsWithLinks} />
       </div>
     </main>

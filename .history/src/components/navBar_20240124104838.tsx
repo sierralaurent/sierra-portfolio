@@ -1,17 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Dropdown from '@/components/menu'
+import HamMenu from '@/components/menu'
 
 
 export default function NavBar() {
-
-const optionsWithLinks = [
-  { label: 'Projects', link: '/Projects' },
-  { label: 'Extras', link: '/Extras' },
-  { label: 'About', link: '/About' },
-  { label: 'Contact', link: '/Contact' }
-];
-
   return (
     <>
     <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl`}>
@@ -33,7 +25,7 @@ const optionsWithLinks = [
         <Link href="/Contact"><h1 className={'hover:text-Sage'}>Contact</h1></Link>
       </div>
       <div className={'desktop:hidden'}>
-      <Dropdown items={optionsWithLinks} />
+        <HamMenu />
       </div>
     </main>
     </>

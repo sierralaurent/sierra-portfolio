@@ -5,12 +5,7 @@ import Dropdown from '@/components/menu'
 
 export default function NavBar() {
 
-const optionsWithLinks = [
-  { label: 'Projects', link: '/Projects' },
-  { label: 'Extras', link: '/Extras' },
-  { label: 'About', link: '/About' },
-  { label: 'Contact', link: '/Contact' }
-];
+  const items = ['Option 1', 'Option 2', 'Option 3'];
 
   return (
     <>
@@ -33,7 +28,7 @@ const optionsWithLinks = [
         <Link href="/Contact"><h1 className={'hover:text-Sage'}>Contact</h1></Link>
       </div>
       <div className={'desktop:hidden'}>
-      <Dropdown items={optionsWithLinks} />
+      <Dropdown items={items} />
       </div>
     </main>
     </>

@@ -15,7 +15,7 @@ const config: Config = {
         'Emerald':'#244B5A',
         'Sage': '#85AF9A',
         'CoolGray': '#D0CFCD',
-        'White': '#FFFFFF'
+        'White': '#FFFFF'
       }
     },
     screens: {

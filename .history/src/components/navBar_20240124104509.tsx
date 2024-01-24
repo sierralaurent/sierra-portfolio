@@ -1,20 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import Dropdown from '@/components/menu'
+import Menu from '@/components/menu'
 
 
 export default function NavBar() {
-
-const optionsWithLinks = [
-  { label: 'Projects', link: '/Projects' },
-  { label: 'Extras', link: '/Extras' },
-  { label: 'About', link: '/About' },
-  { label: 'Contact', link: '/Contact' }
-];
-
   return (
     <>
-    <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl`}>
+    <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl tablet:justify-center`}>
       <div className={'flex flex-row gap-x-5 tablet:hidden mobile:hidden tablet:justify-center'}>
         <Link href="/Projects"><h1 className={'hover:text-Sage'}>Projects</h1></Link>
         <Link href="/Extras"><h1 className={'hover:text-Sage'}>Extras</h1></Link>
@@ -33,7 +25,7 @@ const optionsWithLinks = [
         <Link href="/Contact"><h1 className={'hover:text-Sage'}>Contact</h1></Link>
       </div>
       <div className={'desktop:hidden'}>
-      <Dropdown items={optionsWithLinks} />
+        <Menu />
       </div>
     </main>
     </>

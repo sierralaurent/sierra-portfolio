@@ -6,10 +6,9 @@ import Dropdown from '@/components/menu'
 export default function NavBar() {
 
 const optionsWithLinks = [
-  { label: 'Projects', link: '/Projects' },
-  { label: 'Extras', link: '/Extras' },
-  { label: 'About', link: '/About' },
-  { label: 'Contact', link: '/Contact' }
+  { label: 'Option 1', link: '/option1' },
+  { label: 'Option 2', link: '/option2' },
+  { label: 'Option 3', link: '/option3' },
 ];
 
   return (
