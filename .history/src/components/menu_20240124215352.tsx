@@ -34,10 +34,9 @@ const Dropdown: React.FC<DropdownProps> = ({ items }) => {
     <div className="relative inline-block text-left" ref={dropdownRef}>
       <div onClick={toggleDropdown}>
         <Image
-          className={'py-3 width-auto height-auto'}
+          className={'py-3'}
           src="/images/icons/White/Hamburger-Menu.png"
           width={50}
-          height={50}
           alt="Hamburger"
         />
       </div>

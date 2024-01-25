@@ -24,7 +24,7 @@ const optionsWithLinks = [
           className={'py-3 width-auto height-auto'}
           src='/images/icons/White/LogoMark White@300x.png'
           width={200}
-          height={200}
+          height={50}
           alt='logomark'
         />
       </div></Link>

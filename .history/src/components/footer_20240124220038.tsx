@@ -21,7 +21,7 @@ export default function Footer() {
         <Link href=''>
         <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
-            className={'py-3 width-auto height-auto'}
+            className={'py-3'}
             src='/images/icons/white/GoogleW.png'
             width={25}
             height={25}
