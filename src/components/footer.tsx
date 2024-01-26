@@ -17,7 +17,7 @@ export default function Footer() {
             alt='Instagram-Icon'
             /> </Link>
             <Image
-            className={'py-3 width-auto height-auto'}
+            className={'py-3 width-auto height-auto layout-fill objectFit-cover'}
             src='/images/icons/white/GoogleW.png'
             width={25}
             height={25}
@@ -30,12 +30,12 @@ export default function Footer() {
       <div>
       <Link href='/'>
           <Image
-            className={'py-3 hover:scale-110 transition-transform'}
+            className={'py-3 hover:scale-110 transition-transform height-auto'}
             src='/images/icons/White/Logo white@300x.png'
             width={125}
             height={125}
             alt='logo '
-            unoptimized={true}
+            
           /> 
         </Link>
       </div>

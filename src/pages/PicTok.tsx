@@ -29,6 +29,7 @@ export default function PicTok() {
           width={2000}
           height={400}
           alt='Long mockup of Pictok screens'
+          unoptimized={true}
         />
         <div className={'flex flx-row items-center gap-10 py-16'}>
             <div className={'text-right'}>
@@ -41,6 +42,7 @@ export default function PicTok() {
                 width={100}
                 height={100}
                 alt='PicTok Logo'
+                unoptimized={true}
                 />
             <div>
                 <h1 className={'text-3xl font-Bold'}>Timeline:</h1>
@@ -60,6 +62,7 @@ export default function PicTok() {
                     width={200}
                     height={100}
                     alt='Gesture Screen03'
+                    unoptimized={true}
                     />
                 <Image
                     className={'py-3'}
@@ -67,6 +70,7 @@ export default function PicTok() {
                     width={200}
                     height={100}
                     alt='Gesture Screen04'
+                    unoptimized={true}
                     />
                 <Image
                     className={'py-3'}
@@ -74,6 +78,7 @@ export default function PicTok() {
                     width={200}
                     height={100}
                     alt='gesture Screen05'
+                    unoptimized={true}
                     />
             </div>
             <div className={'flex flex-col gap-10'}>
@@ -91,6 +96,7 @@ export default function PicTok() {
                         width={2000}
                         height={400}
                         alt='User Persona'
+                        unoptimized={true}
                     />
                     <h3 className={'text-xl'}>User Persona: A recipe for the ideal user of an app or website</h3>
                 </div>
@@ -103,6 +109,7 @@ export default function PicTok() {
                         width={2000}
                         height={400}
                         alt='User Persona'
+                        unoptimized={true}
                     />
                     <h3 className={'text-xl'}>User Flow Chart: A map/chart showing the flow of how someone would go through an app</h3>
                 </div>
@@ -121,6 +128,7 @@ export default function PicTok() {
                         width={150}
                         height={150}
                         alt='Gesture Screen03'
+                        unoptimized={true}
                         />
                     <Image
                         className={'p-3'}
@@ -128,6 +136,7 @@ export default function PicTok() {
                         width={150}
                         height={100}
                         alt='Gesture Screen04'
+                        unoptimized={true}
                         />
                     <Image
                         className={'p-3'}
@@ -135,6 +144,7 @@ export default function PicTok() {
                         width={150}
                         height={100}
                         alt='gesture Screen05'
+                        unoptimized={true}
                         />
                         </div>
                         <div className={'flex flex-row justify-between tab'}>
@@ -144,6 +154,7 @@ export default function PicTok() {
                                 width={150}
                                 height={100}
                                 alt='Gesture Screen03'
+                                unoptimized={true}
                                 />
                             <Image
                                 className={'p-3'}
@@ -151,6 +162,7 @@ export default function PicTok() {
                                 width={150}
                                 height={100}
                                 alt='Gesture Screen04'
+                                unoptimized={true}
                                 />
                         </div>
                 </div>
@@ -158,9 +170,13 @@ export default function PicTok() {
         </div>
         <div className={'flex flex-col items-center gap-10 my-28 text-center'}>
             <h1 className={'text-5xl font-semibold'}>Hope you enjoyed PicTok!</h1>
-            <h2 className={'text-3xl'}>Go back to see the rest of my projects</h2>
-            <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Projects</button></Link>
+            <h2 className={'text-3xl'}>Be sure to see the rest of my projects</h2>
+            <div className={'flex flex-row gap-16'}>
+            <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Back to Projects</button></Link>
+            <Link href="/NewHabits"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Next Project</button></Link>
+            </div>
         </div>
+
     </main>
     <Footer />
     </>

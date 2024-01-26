@@ -21,7 +21,7 @@ const optionsWithLinks = [
       </div>
       <Link href="/"><div>
       <Image
-          className={'py-3 width-auto height-auto hover:scale-110 transition-transform'}
+          className={'py-3 width-auto height-auto hover:scale-110 transition-transform layout-fill objectFit-cover height-auto'}
           src='/images/icons/White/LogoMark White@300x.png'
           width={200}
           height={200}

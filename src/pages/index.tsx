@@ -16,10 +16,11 @@ export default function Home() {
     <main className={`flex min-h-screen flex-col items-center p-20 text-black gap-40`}>
       <div className={'flex flex-row items-center gap-20'}>
       <Image
-          className={'py-3'}
+          className={'py-3 layout-fill objectFit-cover height-auto'}
           src='/images/profile_picture.jpg'
           width={400}
           height={400}
+          priority={true}
           alt='Profile Picture'
         />
         <div className={'flex flex-col gap-10'}>
@@ -33,7 +34,7 @@ export default function Home() {
         <div className={'flex flex-row items-center gap-10'}>
           <Link href="/PicTok"><div className={'flex flex-col items-center hover:scale-110 transition-transform'}>
           <Image
-            className={'py-3'}
+            className={'py-3 layout-fill objectFit-cover height-auto'}
             src='/images/Mock-Up PicTok.png'
             width={300}
             height={300}
@@ -47,7 +48,7 @@ export default function Home() {
             src='/images/Mock-Up New Habits.png'
             width={300}
             height={300}
-            alt='PicTok App Mock-Up'
+            alt='NewHabits App Mock-Up'
           />
           <h2 className={'text-xl font-semibold'}>New Habits</h2>
           </div></Link>
