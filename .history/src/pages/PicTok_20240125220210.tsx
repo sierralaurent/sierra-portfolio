@@ -23,6 +23,7 @@ export default function PicTok() {
             To bring value to the designated community of visually impaired individuals, the web app has many standards to meet, including but not limited to accessibility, inclusiveness, and uniqueness.
             </p>
       </div>
+      <div className={'flex inset-0 overflow-hidden'}>
         <Image
           className={'py-3 w-screen'}
           src='/images/Mock-Up PicTok-Long.png'
@@ -30,6 +31,7 @@ export default function PicTok() {
           height={400}
           alt='Long mockup of Pictok screens'
         />
+        </div>
         <div className={'flex flx-row items-center gap-10 py-16'}>
             <div className={'text-right'}>
                 <h1 className={'text-3xl font-Bold'}>My Role:</h1>
@@ -156,7 +158,7 @@ export default function PicTok() {
                 </div>
             </div>
         </div>
-        <div className={'flex flex-col items-center gap-10 my-28 text-center'}>
+        <div className={'flex flex-col items-center gap-10 my-28'}>
             <h1 className={'text-5xl font-semibold'}>Hope you enjoyed PicTok!</h1>
             <h2 className={'text-3xl'}>Go back to see the rest of my projects</h2>
             <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Projects</button></Link>

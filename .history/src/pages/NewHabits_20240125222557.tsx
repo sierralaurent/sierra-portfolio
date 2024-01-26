@@ -8,69 +8,68 @@ export default function PicTok() {
   return (
     <>
     <Head>
-        <title>Sierra Laurent | PicTok</title>
+        <title>Sierra Laurent | New Habits</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
     <main className={`flex min-h-screen flex-col items-center text-black p-48`}>
       <div className={`flex flex-row items-center justify-between w-full py-8`}>
-        <h1 className={'text-5xl font-bold'}>PicTok</h1>
-        <Link href="https://pictok.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>View App</button></Link>
+        <h1 className={'text-5xl font-bold'}>New Habits</h1>
+        <Link href="https://newhabits.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>View App</button></Link>
       </div>
       <div className={'py-8 text-xl'}>
-            <p>This project for school challenged our teams to integrate artificial intelligence (AI)  into a web app that can help bring insight or benefits to under-represented or disadvantaged communities/societies.
-            To bring value to the designated community of visually impaired individuals, the web app has many standards to meet, including but not limited to accessibility, inclusiveness, and uniqueness.
+            <p>The New Habits web app was created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends of those suffering.
+                There is a quiz within the app that asks the users a set of questions outlining the biggest and most noticeable effects of substance misuse disorder.
             </p>
       </div>
         <Image
           className={'py-3 w-screen'}
-          src='/images/Mock-Up PicTok-Long.png'
+          src='/images/NewHabits-MockupLong.png'
           width={2000}
           height={400}
           alt='Long mockup of Pictok screens'
         />
         <div className={'flex flx-row items-center gap-10 py-16'}>
             <div className={'text-right'}>
-                <h1 className={'text-3xl font-Bold'}>My Role:</h1>
-                <h3 className={'text-xl'}>UI/UX Designer + Accessibility Researcher</h3>
+                <h1 className={'text-3xl font-semiold'}>My Role:</h1>
+                <h3 className={'text-xl'}>UI/UX Designer + Front End Developer</h3>
             </div>
             <Image
                 className={'py-3 hover:scale-110 transition-transform'}
-                src='/images/PicTokLogo.png'
+                src='/images/NewHabitsLogo.png'
                 width={100}
                 height={100}
-                alt='PicTok Logo'
+                alt='Newhabits Logo'
                 />
             <div>
                 <h1 className={'text-3xl font-Bold'}>Timeline:</h1>
-                <h3 className={'text-xl'}>Sep. 2023 - Dec. 2023 (3 months)</h3>
+                <h3 className={'text-xl'}>January 2023 - May 2023 (5 months)</h3>
             </div>
         </div>
         <div className={'flex flex-col gap-8'}>
             <h1 className={'text-3xl font-bold'}>Ideation</h1>
-            <p className={'text-xl'}>Starting at the very beginning, the idea of PikTok, was overall too broad and too vague, starting with: 
-                “an app for blind people that can share photos with other blind people”
-                But it was something. After a session of deliberation, all 8 team members were able to put their ideas together to create a good, solid idea for an app. Nothing too broad, as it was inclusive and descriptive:
-                “A photo sharing app that targets blind users by utilizing image recognition technology to enhance the experience of photo sharing for visually impaired users with sound cues and text to speech.”</p>
+            <p className={'text-xl'}>Starting with an idea and creating something you can interact with is always fun and allows endless opportunities for new features
+                and looks to be added. Starting with “Humphrey” the whale as a mascot was a great point, allowing the theme and feel to be formed around him. Humphrey was happy,
+                fun and caring, so why not incorporate a game in the app where each person can stroll around and have fun with Humphrey </p>
             <div className={'flex -flex-row justify-between py-8'}>
                 <Image
                     className={'py-3'}
-                    src='/images/PicTok Screens/Gesture03.png'
+                    src='/images/NewHabits-Screens/Get started.png'
                     width={200}
                     height={100}
                     alt='Gesture Screen03'
                     />
                 <Image
                     className={'py-3'}
-                    src='/images/PicTok Screens/Gesture04.png'
+                    src='/images/NewHabits-Screens/Welcome Page.png'
                     width={200}
                     height={100}
                     alt='Gesture Screen04'
                     />
                 <Image
                     className={'py-3'}
-                    src='/images/PicTok Screens/Gesture05.png'
+                    src='/images/NewHabits-Screens/Resources1.png'
                     width={200}
                     height={100}
                     alt='gesture Screen05'
@@ -83,25 +82,25 @@ export default function PicTok() {
                     for many everyday things, including many applications and websites.</p>
             </div>
             <div className={'flex flex-col gap-5 py-5'}>
-                    <h1 className={'text-3xl font-semibold'}>1. Understanding the target audience</h1>
-                    <h2 className={'text-2xl'}>Resolved with a user persona</h2>
+                    <h1 className={'text-3xl font-semibold'}>1. Usability and Interaction</h1>
+                    <h2 className={'text-2xl'}>Resolved with Usability Testing</h2>
                     <Image
-                        className={'py-3 w-screen'}
-                        src='/images/PicTok-UserPersona.png'
-                        width={2000}
-                        height={400}
+                        className={'py-3'}
+                        src='/images/Newhabits-UserTest2.png'
+                        width={1000}
+                        height={200}
                         alt='User Persona'
                     />
-                    <h3 className={'text-xl'}>User Persona: A recipe for the ideal user of an app or website</h3>
+                    <h3 className={'text-xl'}>Usability Testing: A series of tasks and questions asked to a volunteer and while receiving feedback on the app</h3>
                 </div>
                 <div className={'flex flex-col gap-5 py-5'}>
-                    <h1 className={'text-3xl font-semibold'}>2. Creating simple, yet effective navigation</h1>
-                    <h2 className={'text-2xl'}>Resolved with a user flow chart</h2>
+                    <h1 className={'text-3xl font-semibold'}>2. Navigation and common assets missing</h1>
+                    <h2 className={'text-2xl'}>Resolved during usability testing when participants would provide feedback</h2>
                     <Image
-                        className={'py-3 object-cover w-full h-full'}
-                        src='/images/PicTok-UserFlow.png'
-                        width={2000}
-                        height={400}
+                        className={'py-3'}
+                        src='/images/Newhabits-UserTest3.png'
+                        width={700}
+                        height={200}
                         alt='User Persona'
                     />
                     <h3 className={'text-xl'}>User Flow Chart: A map/chart showing the flow of how someone would go through an app</h3>
@@ -111,27 +110,27 @@ export default function PicTok() {
                 <Link href="https://pictok.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>View App</button></Link>
             </div>
             <div className={'flex flex-col'}>
-                <p>Getting a wonderful, simple app that can bring the experience of photos to those who may not be familiar with it was a fun journey, with many lessons learned.
-                    PicTok is a movement towards inclusivity, with the mission to provide a platform where every image tells a story meant for everyone.</p>
+                <p>Finishing the app is always rewarding, but it is never truly finished as there is always room for more features and constant updates. Ending with a clean, flowing app where
+                    users can test themselves on their substance use and even play a game is something unique and will always be remembered, with the extra help of Humphrey the whale.</p>
                 <div className={'flex flex-row items-center justify-center py-10 tablet:flex-col'}>
                     <div className={'flex flex-row'}>
                     <Image
                         className={'p-3'}
-                        src='/images/PicTok Screens/Profile.png'
+                        src='/images/NewHabits-Screens/Welcome Page.png'
                         width={150}
                         height={150}
                         alt='Gesture Screen03'
                         />
                     <Image
                         className={'p-3'}
-                        src='/images/PicTok Screens/FriendsList.png'
+                        src='/images/NewHabits-Screens/Welcome Page.png'
                         width={150}
                         height={100}
                         alt='Gesture Screen04'
                         />
                     <Image
                         className={'p-3'}
-                        src='/images/PicTok Screens/Home.png'
+                        src='/images/NewHabits-Screens/Welcome Page.png'
                         width={150}
                         height={100}
                         alt='gesture Screen05'
@@ -140,14 +139,14 @@ export default function PicTok() {
                         <div className={'flex flex-row justify-between tab'}>
                             <Image
                                 className={'p-3'}
-                                src='/images/PicTok Screens/Camera-Complete.png'
+                                src='/images/NewHabits-Screens/Welcome Page.png'
                                 width={150}
                                 height={100}
                                 alt='Gesture Screen03'
                                 />
                             <Image
                                 className={'p-3'}
-                                src='/images/PicTok Screens/Camera-Send.png'
+                                src='/images/NewHabits-Screens/Welcome Page.png'
                                 width={150}
                                 height={100}
                                 alt='Gesture Screen04'

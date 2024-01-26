@@ -36,7 +36,7 @@ export default function Projects() {
         <div className={'flex flex-col gap-10 text-right'}>
           <h1 className={'text-5xl font-semibold'}>New Habits</h1>
           <h3 className={'text-xl'}>The New Habits web app was created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends of those suffering. There is a quiz within the app that asks the users a set of questions outlining the biggest and most noticeable effects of substance misuse disorder.</h3>
-          <Link href="/NewHabits"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>See Case Study</button></Link>
+          <Link href=""><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald'}>See Case Study</button></Link>
         </div>
         <Image
           className={'py-3'}

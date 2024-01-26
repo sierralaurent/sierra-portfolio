@@ -20,7 +20,7 @@ const config: Config = {
     },
     screens: {
 
-      'mobile': {'max': '767px'},
+      'mobile': {'min': '350px', 'max': '767px'},
       // => @media (min-width: 350px and max-width: 767px) { ... }
 
       'tablet': {'max': '1023px'},

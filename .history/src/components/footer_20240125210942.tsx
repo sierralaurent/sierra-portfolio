@@ -7,7 +7,7 @@ export default function Footer() {
     <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl`}>
       <div className={'flex flex-col gap-2'}>
         <h1 className={'text-2xl font-bold'}>Say Hi</h1>
-        <div className={'flex flex-row items-center justify-between hover:text-Sage text-base'}>
+        <div className={'flex flex-row items-center gap-5 hover:text-Sage text-base'}>
         <Link href='https://www.linkedin.com/in/sierra-laurent-59821226a/'>
             <Image
             className={'py-3'}
@@ -28,21 +28,19 @@ export default function Footer() {
       </div>
 
       <div>
-      <Link href='/'>
-          <Image
-            className={'py-3 hover:scale-110 transition-transform'}
-            src='/images/icons/White/Logo white@300x.png'
-            width={125}
-            height={125}
-            alt='logo '
-            unoptimized={true}
-          /> 
-        </Link>
+      <Image
+          className={'py-3'}
+          src='/images/icons/White/Logo white@300x.png'
+          width={150}
+          height={150}
+          alt='logo '
+          unoptimized={true}
+        />
       </div>
 
       <div className={'flex flex-col gap-2 '}>
         <h1 className={'text-2xl font-bold'}>See More</h1>
-        <div className={'flex flex-row items-center justify-between hover:text-Sage text-base'}>
+        <div className={'flex flex-row items-center gap-5 hover:text-Sage text-base'}>
             <Link href=''>
             <Image
             className={'py-3'}

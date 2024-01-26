@@ -28,16 +28,14 @@ export default function Footer() {
       </div>
 
       <div>
-      <Link href='/'>
-          <Image
-            className={'py-3 hover:scale-110 transition-transform'}
-            src='/images/icons/White/Logo white@300x.png'
-            width={125}
-            height={125}
-            alt='logo '
-            unoptimized={true}
-          /> 
-        </Link>
+      <Image
+          className={'py-3'}
+          src='/images/icons/White/Logo white@300x.png'
+          width={150}
+          height={150}
+          alt='logo '
+          unoptimized={true}
+        />
       </div>
 
       <div className={'flex flex-col gap-2 '}>

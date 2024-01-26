@@ -21,7 +21,7 @@ const optionsWithLinks = [
       </div>
       <Link href="/"><div>
       <Image
-          className={'py-3 width-auto height-auto hover:scale-110 transition-transform'}
+          className={'py-3 width-auto height-auto'}
           src='/images/icons/White/LogoMark White@300x.png'
           width={200}
           height={200}
@@ -29,8 +29,8 @@ const optionsWithLinks = [
         />
       </div></Link>
       <div className={'flex flex-row gap-x-5 tablet:hidden mobile:hidden'}>
-        <Link href="/About"><h1 className={'hover:text-Sage hover:scale-110 transition-transform'}>About</h1></Link>
-        <Link href="/Contact"><h1 className={'hover:text-Sage hover:scale-110 transition-transform'}>Contact</h1></Link>
+        <Link href="/About"><h1 className={'hover:text-Sage'}>About</h1></Link>
+        <Link href="/Contact"><h1 className={'hover:text-Sage'}>Contact</h1></Link>
       </div>
       <div className={'desktop:hidden'}>
       <Dropdown items={optionsWithLinks} />

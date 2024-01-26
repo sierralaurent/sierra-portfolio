@@ -30,7 +30,7 @@ export default function Footer() {
       <div>
       <Link href='/'>
           <Image
-            className={'py-3 hover:scale-110 transition-transform'}
+            className={'py-3'}
             src='/images/icons/White/Logo white@300x.png'
             width={125}
             height={125}

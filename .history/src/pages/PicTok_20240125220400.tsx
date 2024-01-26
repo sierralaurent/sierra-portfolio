@@ -156,7 +156,7 @@ export default function PicTok() {
                 </div>
             </div>
         </div>
-        <div className={'flex flex-col items-center gap-10 my-28 text-center'}>
+        <div className={'flex flex-col items-center gap-10 my-28'}>
             <h1 className={'text-5xl font-semibold'}>Hope you enjoyed PicTok!</h1>
             <h2 className={'text-3xl'}>Go back to see the rest of my projects</h2>
             <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Projects</button></Link>
