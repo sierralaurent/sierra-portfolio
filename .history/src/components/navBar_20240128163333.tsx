@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Dropdown from '@/components/menu'
+import Notification from './notification';
+
 
 export default function NavBar() {
 
