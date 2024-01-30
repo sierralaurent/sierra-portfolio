@@ -1,0 +1,163 @@
+@import "tailwindcss/base";
+
+*::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #D0CFCD;
+  border-radius: 100vh;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: '#D0CFCD';
+  border-radius: 20px;
+  background: #85AF9A;
+}
+
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --Emerald: '#244B5A';
+  --Sage: '#85AF9A';
+  --Cool-Gray: '#D0CFCD';
+
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --Emerald: '#244B5A';
+    --Sage: '#85AF9A';
+    --Cool-Gray: '#D0CFCD';
+  }
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('/fonts/montserrat-regular.ttf') format('ttf'), /* Modern Browsers */
+       url('/fonts/montserrat-regular.ttf') format('ttf'); /* Older Browsers */
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 700; /* Bold */
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('/fonts/montserrat-bold.ttf') format('ttf'), /* Modern Browsers */
+       url('/fonts/montserrat-bold.ttf') format('ttf'); /* Older Browsers */
+}
+
+@font-face {
+  font-family: 'Montserrat-Semibold';
+  font-style: normal;
+  font-weight: 550; /* Bold */
+  src: local('Montserrat Semibold'), local('Montserrat-Semibold'),
+       url('/fonts/montserrat-bold.ttf') format('ttf'), /* Modern Browsers */
+       url('/fonts/montserrat-bold.ttf') format('ttf'); /* Older Browsers */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  
+}
+@keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-moz-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.stars {
+  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 0;
+}
+
+.twinkling {
+  width: 10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+  background-size: 1000px 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  -moz-animation: move-background 70s linear infinite;
+  -ms-animation: move-background 70s linear infinite;
+  -o-animation: move-background 70s linear infinite;
+  -webkit-animation: move-background 70s linear infinite;
+  animation: move-background 70s linear infinite;
+}
+
+.clouds {
+  width: 10000px;
+  height: 100%;
+  background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+  background-size: 1000px 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  -moz-animation: move-background 150s linear infinite;
+  -ms-animation: move-background 150s linear infinite;
+  -o-animation: move-background 150s linear infinite;
+  -webkit-animation: move-background 150s linear infinite;
+  animation: move-background 150s linear infinite;
+}
+
+img {
+  height: 70vh;
+  width: 70vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+}
