@@ -15,6 +15,7 @@
   background: #85AF9A;
 }
 
+
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
@@ -24,6 +25,7 @@
   --Emerald: '#244B5A';
   --Sage: '#85AF9A';
   --Cool-Gray: '#D0CFCD';
+
 }
 
 @media (prefers-color-scheme: light) {

@@ -7,9 +7,9 @@ interface Slide {
 }
 
 const slides: Slide[] = [
-  { label: 'BEETLE WING Hazy IPA', image: 'canlabel01.png' },
-  { label: 'SILENT DRAGON Dark Lager', image: 'canlabel02.png' },
-  { label: 'EASTERN LUNA Pilsner', image: 'canlabel03.png' },
+  { label: 'Label 1', image: 'canlabel01.png' },
+  { label: 'Label 2', image: 'canlabel02.png' },
+  { label: 'Label 3', image: 'canlabel03.png' },
 ];
 
 const CanSlideshow: React.FC = () => {
@@ -34,8 +34,8 @@ const CanSlideshow: React.FC = () => {
           src={`/CanMockup/${slides[currentSlide].image}`}
           alt={`Image ${currentSlide + 1}`}
           className={'py-3 layout-fill objectFit-cover h-auto hover:scale-110 transition-transform'}
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           priority={false}
         />
       </div>
@@ -44,7 +44,7 @@ const CanSlideshow: React.FC = () => {
           {slides.map((slide, index) => (
             <button
               key={index}
-              className={` ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'} bg-Sage text-white p-3 text-base rounded-lg hover:scale-110 transition-transform`}
+              className={` ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'}`}
               onClick={() => goToSlide(index)}
             >
               {slide.label}

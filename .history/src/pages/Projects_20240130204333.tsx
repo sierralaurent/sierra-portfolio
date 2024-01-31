@@ -3,6 +3,8 @@ import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Head from 'next/head'
 import Link from 'next/link'
+import CanSlideshow from '@/components/canSlideshow'
+import TzSlideshow from '@/components/tzSlideshow'
 
 export default function Projects() {
   return (

@@ -32,7 +32,7 @@ export default function HopsPigs() {
         <div className={'flex flex-col gap-10 items-center m-20 mx-48'}>
             <div className={'flex flex-col gap-5'}>
                 <h1 className={'text-5xl font-bold'}>Hops & Pigs Brewery</h1>
-                <h2 className={'text-2xl'}>Fictional Beverage Company Can Mockup</h2>
+                <h2 className={'text-2xl'}>Fictional Beverage Comapny Can Mockup</h2>
             </div>
         <h1 className={'text-3xl font-semibold'}>Overview</h1>
         <p>A fictional craft beer brewery imagined by myself is based out of Vancouver, BC, Hops & Pigs 
@@ -51,8 +51,8 @@ export default function HopsPigs() {
             <Image
                 className={'py-3 '}
                 src='/CanMockup/beetle.png'
-                width={75}
-                height={75}
+                width={100}
+                height={100}
                 alt='Pantone Swatch'
             />
             <Image

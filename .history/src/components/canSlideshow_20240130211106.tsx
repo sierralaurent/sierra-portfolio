@@ -44,7 +44,7 @@ const CanSlideshow: React.FC = () => {
           {slides.map((slide, index) => (
             <button
               key={index}
-              className={` ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'} bg-Sage text-white p-3 text-base rounded-lg hover:scale-110 transition-transform`}
+              className={` ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'}`}
               onClick={() => goToSlide(index)}
             >
               {slide.label}

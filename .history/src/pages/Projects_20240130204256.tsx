@@ -3,6 +3,8 @@ import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Head from 'next/head'
 import Link from 'next/link'
+import CanSlideshow from '@/components/canSlideshow'
+import TzSlideshow from '@/components/tzSlideshow'
 
 export default function Projects() {
   return (
@@ -16,7 +18,7 @@ export default function Projects() {
     <main className={`flex min-h-screen flex-col items-center p-8 text-black`}>
       <div className={'flex flex-col items-center m-10 p-10 gap-10'}>
         <h1 className={'text-5xl font-semibold'}>See my projects here</h1>
-        <h3 className={'text-2xl'}>As well as some smaller projects on the 'gallery' page</h3>
+        <h3 className={'text-2xl'}>As well as some smaller projects on the 'extras' page</h3>
       </div>
       <div className={'tablet:flex-col max-w-4xl tablet:max-w-sm bg-Sage text-white flex flex-row gap-8 m-10 mx-20 items-center rounded-2xl'}>
       <Image

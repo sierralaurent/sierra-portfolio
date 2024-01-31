@@ -1,26 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-interface Slide {
-  label: string;
-  image: string;
-}
-
-const slides: Slide[] = [
-  { label: 'BEETLE WING Hazy IPA', image: 'canlabel01.png' },
-  { label: 'SILENT DRAGON Dark Lager', image: 'canlabel02.png' },
-  { label: 'EASTERN LUNA Pilsner', image: 'canlabel03.png' },
+const images = [
+  'canlabel01.png',
+  'canlabel02.png',
+  'canlabel03.png',
 ];
 
 const CanSlideshow: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
+    setCurrentSlide((prevSlide) => (prevSlide - 1 + images.length) % images.length);
   };
 
   const goToSlide = (index: number) => {
@@ -31,23 +26,23 @@ const CanSlideshow: React.FC = () => {
     <div className={'flex flex-col items-center gap-4'}>
       <div className="flex flex-row items-center gap-8">
         <Image
-          src={`/CanMockup/${slides[currentSlide].image}`}
+          src={`/CanMockup/${images[currentSlide]}`}
           alt={`Image ${currentSlide + 1}`}
           className={'py-3 layout-fill objectFit-cover h-auto hover:scale-110 transition-transform'}
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           priority={false}
         />
       </div>
       <div className={'flex flex-row gap-8'}>
         <div className="flex items-center gap-4">
-          {slides.map((slide, index) => (
+          {images.map((_, index) => (
             <button
               key={index}
-              className={` ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'} bg-Sage text-white p-3 text-base rounded-lg hover:scale-110 transition-transform`}
+              className={` ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'}`}
               onClick={() => goToSlide(index)}
             >
-              {slide.label}
+              #{index + 1}
             </button>
           ))}
         </div>

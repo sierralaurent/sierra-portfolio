@@ -28,7 +28,7 @@ const CanSlideshow: React.FC = () => {
   };
 
   return (
-    <div className={'flex flex-col items-center gap-4'}>
+    <div className={'flex flex-col items-center gap-4 bg-Emerald rounded-2xl'}>
       <div className="flex flex-row items-center gap-8">
         <Image
           src={`/CanMockup/${slides[currentSlide].image}`}
