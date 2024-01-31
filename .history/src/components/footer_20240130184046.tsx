@@ -31,8 +31,8 @@ export default function Footer() {
           <Image
             className={'py-3 h-auto hover:scale-110 transition-transform h-auto'}
             src='/images/icons/White/LogoW.png'
-            width={100}
-            height={100}
+            width={125}
+            height={125}
             alt='My logo'
           /> 
         </Link>

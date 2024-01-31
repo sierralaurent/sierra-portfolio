@@ -12,7 +12,7 @@ const config: Config = {
     },
     extend: {
       fontFamily: {
-        custom: ["Montserrat", "sans-serif"]
+        custom: ["montserrat", "sans-serif"]
       },
       colors: {
         'Emerald':'#244B5A',

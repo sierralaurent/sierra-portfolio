@@ -66,7 +66,7 @@ export default function Projects() {
         <div className={'flex flex-col gap-10 p-10'}>
           <h1 className={'text-3xl font-semibold'}>Hops & Pigs Brewery</h1>
           <p>Created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends. A quiz within the app that outlines the biggest and most noticeable effects of substance misuse disorder.</p>
-          <Link href="/hops&pigs"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:scale-110 transition-transform'}>See More</button></Link>
+          <Link href="/NewHabits"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:scale-110 transition-transform'}>See More</button></Link>
         </div>
           <Image
           className={'rounded-l-lg'}

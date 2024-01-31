@@ -14,9 +14,6 @@ const optionsWithLinks = [
   return (
     <>
     <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl `}>
-      <div className={'desktop:hidden'}>
-      <Dropdown items={optionsWithLinks} />
-      </div>
       <div className={'flex flex-row gap-x-5 tablet:hidden mobile:hidden'}>
         <Link href="/Projects"><h1 className={'hover:text-Sage hover:scale-110 transition-transform'}>Projects</h1></Link>
         <Link href="/Extras"><h1 className={'hover:text-Sage hover:scale-110 transition-transform'}>Gallery</h1></Link>
@@ -33,6 +30,9 @@ const optionsWithLinks = [
           unoptimized={true}
           placeholder='empty'
         /></Link>
+      <div className={'desktop:hidden'}>
+      <Dropdown items={optionsWithLinks} />
+      </div>
     </main>
     
     </>

@@ -48,7 +48,7 @@ export default function Home() {
           <Link href="/PicTok"><button className={'bg-Emerald text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>See More</button></Link>
         </div>
     </div>
-    <div className={'max-w-4xl text-white bg-Emerald text-right flex flex-row gap-8 m-10 items-center rounded-lg'}>
+    <div className={'max-w-4xl text-white bg-Emerald text-right flex flex-row gap-8 m-20 items-center rounded-lg'}>
         <div className={'flex flex-col gap-10 p-10'}>
           <h1 className={'text-3xl font-semibold'}>New Habits</h1>
           <p>Created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends. A quiz within the app that outlines the biggest and most noticeable effects of substance misuse disorder.</p>
