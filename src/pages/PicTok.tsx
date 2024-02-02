@@ -174,7 +174,7 @@ export default function PicTok() {
         <Image
         className={'shadow-2xl'}
         src='/images/PicTok/userFlow.png'
-        width={800}
+        width={800} 
         height={400}
         alt='PicTok Styleguide'
             />
@@ -193,10 +193,24 @@ export default function PicTok() {
                 alt='Ideation of PicTok'
             />
         </div>
+        <div className={'flex flex-col w-full items-start gap-6'}>
+            <h1 className={'text-3xl font-semibold'}>Extras</h1>
+        </div>
+        <div className={'flex flex-row items-center gap-20'}>
+            <Image
+                className={'shadow-2xl'}
+                src='/images/PicTok/pictok-cards.png'
+                width={400}
+                height={400}
+                alt='pictok business cards'
+            />
+        </div>
         </div>
         <div className={'flex flex-col items-center gap-10 mb-28 text-center'}>
             <h1 className={'font-bold text-3xl'}>Hope you enjoyed PicTok!</h1>
             <h2 className={'font-semibold text-3xl'}>Be sure to check out the rest of my projects</h2>
+            
+            
             <div className={'flex flex-row gap-12 items-center'}>
                 <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Back to Projects</button></Link>
                 <Link href="/NewHabits"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Next Project</button></Link>

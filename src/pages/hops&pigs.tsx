@@ -43,27 +43,27 @@ export default function HopsPigs() {
             front of their cans, BUGS. It is often seen as a design never-do, but Hops & Pig’s wanted to try it, 
             as they knew their customers loved trying every different beer they could put out. They wanted to stay 
             true to their colours of pink and white but were open to venturing out to more colours.</p>
-        <div className={'flex flex-row gap-20'}>
+        <div className={'flex flex-row gap-20 tablet:flex-col tablet:gap-5 items-center'}>
             <Image
                 className={'py-3 '}
                 src='/CanMockup/moth.png'
                 width={100}
                 height={100}
-                alt='Pantone Swatch'
+                alt='Moth'
             />
             <Image
                 className={'py-3 '}
                 src='/CanMockup/beetle.png'
                 width={75}
                 height={75}
-                alt='Pantone Swatch'
+                alt='Beetle'
             />
             <Image
                 className={'py-3 '}
                 src='/CanMockup/dragonfly.png'
                 width={100}
                 height={100}
-                alt='Pantone Swatch'
+                alt='Dragofly'
             />
         </div>
         <div className={'flex flex-col w-full items-start gap-6'}>
@@ -72,9 +72,9 @@ export default function HopsPigs() {
         <p className={'text-lg'}>Once I saw this Pantone swatch pop up on my Pinterest feed, I knew I must bring this into a design and give it life, even better 
             it was given an awesome name, beetle wing. Bringing the colour to its name, I imagined it with a beautiful three-horned rhinoceros stag beetle, vectorized 
             and simplified to make it less scary, it belonged on the front of one of the best beers to exist, a hazy IPA.</p>
-        <div className={'flex flex-row gap-10'}>
+        <div className={'flex flex-row gap-10 tablet:flex-col tablet:gap-10 items-center'}>
             <Image
-                className={'py-3 border-4 shadow-2xl'}
+                className={'shadow-2xl'}
                 src='/CanMockup/pantone01.png'
                 width={200}
                 height={100}

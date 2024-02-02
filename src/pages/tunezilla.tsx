@@ -42,7 +42,7 @@ export default function TuneZilla() {
         <p className={'text-lg'}>TuneZilla Software company is a company that sells to those who are looking to get more out of the European vehicle, they alter the engine's main computer to get more power out of the engine. 
             Tunezilla is always looking for ways to grow and expand its audience on social media, so the idea of creating GIFs or stickers that the media team and followers can use on social media was spat around. GIPHY is an amazing 
             platform for creating and uploading GIFs for usage. </p>
-        <div className={'flex flex-row gap-20'}>
+        <div className={'flex flex-row gap-20 tablet:flex-col tablet:gap-5 items-center'}>
             <Image
                 className={'py-3 '}
                 src='https://media.giphy.com/media/OtspVtO0cTbKIIRdcF/giphy.gif'
@@ -70,16 +70,16 @@ export default function TuneZilla() {
         </div>
         <p className={'text-lg'}>TuneZilla Software has a mascot they call the toon-zilla, which is a small, blue dinosaur that wears a white racing helmet. Incorporating the dino into the GIFS was a must, as customers receive a little foam version with their orders, so creating that consistency is vital. 
             In addition, incorporating the iconic TuneZilla 500-HorsePower S3 in their would be great as some followers often follow TuneZilla just for that car. It has a unique wrapped design on it well, allowing it to stand out and be easily identified.</p>
-        <div className={'flex flex-row gap-10'}>
+        <div className={'flex flex-row gap-10 tablet:flex-col tablet:gap-5 items-center'}>
             <Image
-                className={'py-3 shadow-2xl'}
+                className={'shadow-2xl'}
                 src='/images/tunezilla/tz-squish.jpg'
                 width={250}
                 height={200}
                 alt='Tunezilla squishie'
             />
             <Image
-                className={'py-3 shadow-2xl'}
+                className={'shadow-2xl'}
                 src='/images/tunezilla/tz-s3.jpg'
                 width={250}
                 height={200}

@@ -21,17 +21,18 @@ export default function MAS() {
             height={400}
             alt='Malone Auto Spa Logo'
         />
-        <div className={'flex flex-col max-w-5xl p-12 gap-10 items-center m-20 mx-48'}>
+        <div className={'flex flex-col max-w-6xl gap-10 items-center m-20 mx-48  tablet:mx-6 tablet-m-10'}>
             <div className={'flex flex-col gap-5 text-center'}>
                 <h1 className={'text-5xl font-bold'}>Malone Auto Spa</h1>
                 <h2 className={'text-2xl'}>Local Automotive Detail Shop Website</h2>
+                <Link href="https://maloneautospa.com/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>View Site</button></Link>
             </div>
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Summary</h1>
         </div>
         <p className={'text-lg'}>Starting with an empty warehouse, Malone Auto Spa was born and given a name. The design of the logo came easily, as it was derived from the parent company's logo with added attributes like the 
             bubbles to resemble the auto spa. Luckily Malone Auto Spa has the assets of the parent company, such as a professional photographer, web developers, and marketing manager.</p>
-        <div className={'flex flex-row gap-20'}>
+        <div className={'flex flex-row gap-20 tablet:flex-col tablet:gap-10'}>
             <Image
                 className={'shadow-2xl'}
                 src='/images/MAS/MAS-Bucket.jpg'
@@ -60,8 +61,17 @@ export default function MAS() {
         <p className={'text-lg'}></p>
             <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Extras</h1>
+            <p className={'text-lg'}>Check out some extra work done for Malone Auto Spa in addition to the website.</p>
         </div>
-        <p className={'text-lg'}>Check out some extra work done for Malone Auto Spa in addition to the website.</p>
+        <div className={'flex flex-row tabelt:flex-col  '}>
+            <Image
+                className={'shadow-2xl'}
+                src='/images/MAS/businessCard.png'
+                width={400}
+                height={400}
+                alt='Ideation of PicTok'
+            />
+        </div>
         </div>
         
         <div className={'flex flex-col items-center gap-10 m-16 mb-24 text-center'}>
