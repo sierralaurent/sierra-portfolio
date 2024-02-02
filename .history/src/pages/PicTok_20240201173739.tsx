@@ -119,7 +119,7 @@ export default function PicTok() {
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-2xl'}>High-Fidelity Mock-Up (HiFi)</h1>
         </div>
-        <div className={'flex flex-row items-center gap-20 tablet:flex-col tablet:gap-10'}>
+        <div className={'flex flex-row items-center gap-20'}>
             <Image
                 className={'shadow-2xl '}
                 src='/images/PicTok/PicTok-Screens/Home.png'
@@ -151,18 +151,9 @@ export default function PicTok() {
             <h1 className={'text-2xl font-semibold'}>01. Understanding the Target Audience</h1>
             <p className={'text-lg'}>Resolved with a User Persona</p>
         </div>
-        <p className={'text-lg'}>Primary User Persona</p>
         <Image
         className={'shadow-2xl'}
-        src='/images/PicTok/userPersona01.png'
-        width={800}
-        height={400}
-        alt='PicTok Styleguide'
-            />
-        <p className={'text-lg'}>Secondary User Persona</p>
-        <Image
-        className={'shadow-2xl'}
-        src='/images/PicTok/userPersona02.png'
+        src='/images/PicTok/PicTok-UserPersona.png'
         width={800}
         height={400}
         alt='PicTok Styleguide'
@@ -173,7 +164,7 @@ export default function PicTok() {
         </div>
         <Image
         className={'shadow-2xl'}
-        src='/images/PicTok/userFlow.png'
+        src='/images/PicTok/PicTok-UserFlow.png'
         width={800}
         height={400}
         alt='PicTok Styleguide'
@@ -195,7 +186,7 @@ export default function PicTok() {
         </div>
         </div>
         <div className={'flex flex-col items-center gap-10 mb-28 text-center'}>
-            <h1 className={'font-bold text-3xl'}>Hope you enjoyed PicTok!</h1>
+            <h1 className={'font-bold text-3xl'}>Hope you enjoyed PicTok</h1>
             <h2 className={'font-semibold text-3xl'}>Be sure to check out the rest of my projects</h2>
             <div className={'flex flex-row gap-12 items-center'}>
                 <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Back to Projects</button></Link>

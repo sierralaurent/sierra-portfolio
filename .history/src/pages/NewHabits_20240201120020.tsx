@@ -29,10 +29,10 @@ export default function NewHabits() {
             height={600}
             alt='Can Mock Up'
         />
-        <div className={'flex flex-col max-w-5xl p-12 gap-10 items-center m-20 tablet:mx-28 mx-48'}>
+        <div className={'flex flex-col max-w-5xl p-12 gap-10 items-center m-20 mx-48'}>
             <div className={'flex flex-col gap-5 items-center'}>
                 <h1 className={'text-5xl font-bold'}>New Habits</h1>
-                <h2 className={'text-2xl'}>Substance Use Disorder (SUD) App</h2>
+                <h2 className={'text-2xl'}>Substance Misuse Disorder (SUD) App</h2>
                 <Link href="https://newhabits.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>View App</button></Link>
             </div>
         <div className={'flex flex-col w-full items-start gap-6'}>
@@ -41,21 +41,21 @@ export default function NewHabits() {
         <p className={'text-lg'}>The New Habits web app was created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends of those suffering. There is a quiz within the app that asks the users a set of questions outlining the biggest and most noticeable effects of substance misuse disorder.</p>
         <div className={'flex flex-row w-full items-center justify-between'}>
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/NewHabits/NewHabits-Screens/Ask-Humphrey.png'
                 width={100}
                 height={100}
                 alt='Pantone Swatch'
             />
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/NewHabits/NewHabits-Screens/Welcome-Page.png'
                 width={100}
                 height={100}
                 alt='Pantone Swatch'
             />
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/NewHabits/NewHabits-Screens/goodbye.png'
                 width={100}
                 height={100}
@@ -107,18 +107,9 @@ export default function NewHabits() {
             <h1 className={'text-3xl font-semibold'}>Results</h1>
         </div>
         <p className={'text-lg'}>Finishing the app is always rewarding, but it is never truly finished as there is always room for more features and constant updates. Ending with a clean, flowing app where users can test themselves on their substance use and even play a game is something unique and will always be remembered, with the extra help of Humphrey the whale.</p>
-        <div className={'flex flex-row items-center gap-20'}>
-            <Image
-                className={'shadow-2xl rounded-2xl'}
-                src='/images/NewHabits/NewHabits-Screens/Welcome-Page.png'
-                width={200}
-                height={200}
-                alt='Ideation of PicTok'
-            />
         </div>
-        </div>
-        <div className={'flex flex-col items-center gap-10 mb-28 text-center'}>
-            <h1 className={'font-bold text-3xl'}>Hope you enjoyed New Habits!</h1>
+        <div className={'flex flex-col items-center gap-10 m-16 mb-20 text-center'}>
+            <h1 className={'font-bold text-3xl'}>Hope you enjoyed Hops & Pigs Brewery!</h1>
             <h2 className={'font-semibold text-3xl'}>Be sure to check out the rest of my projects</h2>
             <div className={'flex flex-row gap-12 items-center'}>
                 <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Back to Projects</button></Link>

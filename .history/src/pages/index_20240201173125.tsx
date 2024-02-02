@@ -39,7 +39,7 @@ export default function Home() {
       <h1 className={'text-3xl font-bold self-start pl-10'}>Recent Projects</h1>
     <div className={'tablet:flex-col tablet:max-w-sm max-w-4xl bg-Sage text-white flex flex-row m-10 gap-8 items-center rounded-2xl'}>
       <Image
-        className={'desktop:rounded-l-lg tablet:rounded-t-lg'}
+        className={'rounded-l-lg'}
         src='/images/PicTok/PicTok-MockUp.png'
         width={400}
         height={400}

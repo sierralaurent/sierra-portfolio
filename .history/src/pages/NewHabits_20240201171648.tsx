@@ -39,7 +39,7 @@ export default function NewHabits() {
             <h1 className={'text-3xl font-semibold'}>Summary</h1>
         </div>
         <p className={'text-lg'}>The New Habits web app was created to help those suffering from substance misuse disorder (SUD), or for concerned family/friends of those suffering. There is a quiz within the app that asks the users a set of questions outlining the biggest and most noticeable effects of substance misuse disorder.</p>
-        <div className={'flex flex-row w-full items-center justify-between'}>
+        <div className={'flex flex-row w-full items-center justify-between tablet:flex-col'}>
             <Image
                 className={'shadow-2xl'}
                 src='/images/NewHabits/NewHabits-Screens/Ask-Humphrey.png'

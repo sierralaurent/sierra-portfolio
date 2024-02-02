@@ -29,7 +29,7 @@ export default function PicTok() {
             height={600}
             alt='Can Mock Up'
         />
-        <div className={'flex flex-col max-w-6xl p-12 gap-10 items-center m-20 mx-48'}>
+        <div className={'flex flex-col max-w-5xl p-12 gap-10 items-center m-20 mx-48'}>
             <div className={'flex flex-col gap-5 text-center'}>
                 <h1 className={'text-5xl font-bold'}>PicTok</h1>
                 <h2 className={'text-2xl'}>Photosharing app for the visually impaired community.</h2>
@@ -59,7 +59,7 @@ export default function PicTok() {
             “an app for blind people that can share photos with other blind people”
             But it was something. After a session of deliberation, all 8 team members were able to put their ideas together to create a good, solid idea for an app. Nothing too broad, as it was inclusive and descriptive: “A photo sharing app that targets blind users by utilizing image recognition 
             technology to enhance the experience of photo sharing for visually impaired users with sound cues and text to speech.”</p>
-            <div className={'flex flex-row items-center gap-20 tablet:flex-col tablet:gap-10'}>
+            <div className={'flex flex-row items-center gap-20'}>
             <Image
                 className={'py-3 shadow-2xl '}
                 src='/images/PicTok/PicTok-Screens/ideation01.png'
@@ -90,25 +90,25 @@ export default function PicTok() {
         audience of the visually impaired, establishing a design that works for those with limited vision, and also looks good for those who can see the app was difficult, but not impossible. Making buttons large, and having strong contrast with text and colours was one of the main ways to improve usability.</p>
         <PictokStyleguide />
         <div className={'flex flex-col w-full items-start '}>
-            <h2 className={'text-2xl '}>Low Fidelity Mock-Up (LoFi)</h2>
+            <h2 className={'text-2xl'}>Low Fidelity Mock-Up (LoFi)</h2>
             </div>
-            <div className={'flex flex-row items-center gap-20 tablet:flex-col tablet:gap-10'}>
+            <div className={'flex flex-row items-center gap-20'}>
             <Image
-                className={'shadow-2xl '}
+                className={'py-3 shadow-2xl '}
                 src='/images/PicTok/PicTok-Screens/lofi01.png'
                 width={100}
                 height={100}
                 alt='Ideation of PicTok'
             />
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/PicTok/PicTok-Screens/lofi02.png'
                 width={100}
                 height={100}
                 alt='Ideation of PicTok'
             />
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/PicTok/PicTok-Screens/lofi03.png'
                 width={100}
                 height={100}
@@ -119,23 +119,23 @@ export default function PicTok() {
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-2xl'}>High-Fidelity Mock-Up (HiFi)</h1>
         </div>
-        <div className={'flex flex-row items-center gap-20 tablet:flex-col tablet:gap-10'}>
+        <div className={'flex flex-row items-center gap-20'}>
             <Image
-                className={'shadow-2xl '}
+                className={'py-3 shadow-2xl '}
                 src='/images/PicTok/PicTok-Screens/Home.png'
                 width={100}
                 height={100}
                 alt='Ideation of PicTok'
             />
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/PicTok/PicTok-Screens/FriendsList.png'
                 width={100}
                 height={100}
                 alt='Ideation of PicTok'
             />
             <Image
-                className={'shadow-2xl'}
+                className={'py-3 shadow-2xl'}
                 src='/images/PicTok/PicTok-Screens/Camera-Send.png'
                 width={100}
                 height={100}
@@ -151,18 +151,9 @@ export default function PicTok() {
             <h1 className={'text-2xl font-semibold'}>01. Understanding the Target Audience</h1>
             <p className={'text-lg'}>Resolved with a User Persona</p>
         </div>
-        <p className={'text-lg'}>Primary User Persona</p>
         <Image
         className={'shadow-2xl'}
-        src='/images/PicTok/userPersona01.png'
-        width={800}
-        height={400}
-        alt='PicTok Styleguide'
-            />
-        <p className={'text-lg'}>Secondary User Persona</p>
-        <Image
-        className={'shadow-2xl'}
-        src='/images/PicTok/userPersona02.png'
+        src='/images/PicTok/PicTok-UserPersona.png'
         width={800}
         height={400}
         alt='PicTok Styleguide'
@@ -173,29 +164,20 @@ export default function PicTok() {
         </div>
         <Image
         className={'shadow-2xl'}
-        src='/images/PicTok/userFlow.png'
+        src='/images/PicTok/PicTok-UserFlow.png'
         width={800}
         height={400}
         alt='PicTok Styleguide'
             />
         <div className={'flex flex-col w-full items-start gap-6'}>
-            <h1 className={'text-3xl font-semibold'}>Results</h1>
+            <h1 className={'text-2xl font-semibold'}>Results</h1>
+            
         </div>
-        <h1 className={'font-bold text-3xl'}>Try it Yourself!</h1>
-        <Link href="https://pictok.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg  hover:scale-110 transition-transform'}>View App</button></Link>
         <p className={'text-lg'}>Getting a wonderful, simple app that can bring the experience of photos to those who may not be familiar with it was a fun journey, with many lessons learned. PicTok is a movement towards inclusivity, with the mission to provide a platform where every image tells a story meant for everyone.</p>
-        <div className={'flex flex-row items-center gap-20'}>
-            <Image
-                className={'shadow-2xl rounded-2xl'}
-                src='/images/PicTok/PicTok-Screens/Home.png'
-                width={200}
-                height={200}
-                alt='Ideation of PicTok'
-            />
+
         </div>
-        </div>
-        <div className={'flex flex-col items-center gap-10 mb-28 text-center'}>
-            <h1 className={'font-bold text-3xl'}>Hope you enjoyed PicTok!</h1>
+        <div className={'flex flex-col items-center gap-10 m-16 mb-20 text-center'}>
+            <h1 className={'font-bold text-3xl'}>Hope you enjoyed PicTok</h1>
             <h2 className={'font-semibold text-3xl'}>Be sure to check out the rest of my projects</h2>
             <div className={'flex flex-row gap-12 items-center'}>
                 <Link href="/Projects"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>Back to Projects</button></Link>

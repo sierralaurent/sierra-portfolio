@@ -3,6 +3,8 @@ import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Head from 'next/head'
 import Link from 'next/link'
+import CanSlideshow from '@/components/canSlideshow'
+import BlurredImageWarning from '@/components/blurredImage';
 
 export default function MAS() {
   return (
@@ -50,21 +52,24 @@ export default function MAS() {
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Necessities</h1>
         </div>
-        <p className={'text-lg'}></p>
+        <p className={'text-lg'}>Once I saw this Pantone swatch pop up on my Pinterest feed, I knew I must bring this into a design and give it life, even better 
+            it was given an awesome name, beetle wing. Bringing the colour to its name, I imagined it with a beautiful three-horned rhinoceros stag beetle, vectorized 
+            and simplified to make it less scary, it belonged on the front of one of the best beers to exist, a hazy IPA.</p>
         <div className={'flex flex-row gap-10'}>
             
         </div>
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Results</h1>
         </div>
-        <p className={'text-lg'}></p>
+        <p className={'text-lg'}>In the end, we get this unique can with three different brews and the opportunity to add many more beautiful bugs with more awe-inspiring colours. For now, we will leave Hops 
+            & Pigs with their three distinctive cans for their three most popular brews.</p>
             <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Extras</h1>
         </div>
         <p className={'text-lg'}>Check out some extra work done for Malone Auto Spa in addition to the website.</p>
         </div>
         
-        <div className={'flex flex-col items-center gap-10 m-16 mb-24 text-center'}>
+        <div className={'flex flex-col items-center gap-10 m-16 mb-20 text-center'}>
             <h1 className={'font-bold text-3xl'}>Hope you enjoyed Malone Auto Spa!</h1>
             <h2 className={'font-semibold text-3xl'}>Be sure to check out the rest of my projects</h2>
             <div className={'flex flex-row gap-12 items-center'}>

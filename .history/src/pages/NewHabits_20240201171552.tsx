@@ -29,7 +29,7 @@ export default function NewHabits() {
             height={600}
             alt='Can Mock Up'
         />
-        <div className={'flex flex-col max-w-5xl p-12 gap-10 items-center m-20 tablet:mx-28 mx-48'}>
+        <div className={'flex flex-col max-w-5xl p-12 gap-10 items-center m-20 mx-48'}>
             <div className={'flex flex-col gap-5 items-center'}>
                 <h1 className={'text-5xl font-bold'}>New Habits</h1>
                 <h2 className={'text-2xl'}>Substance Use Disorder (SUD) App</h2>

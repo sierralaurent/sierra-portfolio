@@ -43,7 +43,7 @@ const Dropdown: React.FC<DropdownProps> = ({ items }) => {
       </div>
 
       {isOpen && (
-        <div className="origin-top-right absolute left-0 w-fit rounded-md shadow-lg bg-White hover:bg-slate">
+        <div className="origin-top-right absolute left-0 w-fit rounded-md shadow-lg bg-White hover:bg-Cool-Gray">
           <div className="py-1 font-bold text-left">
             {items.map((item, index) => (
               <a

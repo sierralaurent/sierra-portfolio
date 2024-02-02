@@ -22,7 +22,7 @@ export default function Contact() {
         <Resume />
       </div>
 
-      <div className={'flex tablet:flex-col tablet:items-center min-w-full flex-row m-24 p-10 justify-between'}>
+      <div className={'flex min-w-full flex-row m-24 p-10 justify-between'}>
       <Link href='https://www.linkedin.com/in/sierra-laurent-59821226a/'>
         <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
