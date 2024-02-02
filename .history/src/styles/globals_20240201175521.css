@@ -65,7 +65,7 @@
 @font-face {
   font-family: 'Montserrat-Semibold';
   font-style: normal;
-  font-weight: 550; /* SemiBold */
+  font-weight: 550; /* Bold */
   src: local('Montserrat Semibold'), local('Montserrat-Semibold'),
        url('/fonts/montserrat-bold.ttf') format('ttf'), /* Modern Browsers */
        url('/fonts/montserrat-bold.ttf') format('ttf'); /* Older Browsers */
@@ -73,5 +73,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  font-family: 'montserrat';
+  font-family: "Montserrat";
 }
