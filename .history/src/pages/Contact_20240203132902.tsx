@@ -14,8 +14,8 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
-    <main className={`flex min-h-screen flex-col text-center items-center items-center text-black `}>
-      <div className={'max-w-6xl m-10 items-center flex flex-col'}>
+    <main className={`flex min-h-screen flex-col text-center items-center items-center m-10 text-black `}>
+      <div className={'max-w-6xl'}>
       <div className={'flex min-w-screen flex-col gap-20 m-4 items-center'}>
         <h2 className={'text-3xl'}>Now that you've seen it all...</h2>
         <h1 className={'text-5xl font-semibold'}>Let's chat!</h1>
@@ -25,9 +25,9 @@ export default function Contact() {
 
       <div className={'flex tablet:flex-col tablet:items-center min-w-full flex-row m-24 p-10 justify-between'}>
       <Link href='https://www.linkedin.com/in/sierra-laurent-59821226a/'>
-        <div className={'flex flex-row items-center gap-2 hover:scale-110 transition-transform text-base'}>
+        <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
-            className={'py-3 '}
+            className={'py-3'}
             src='/images/icons/Black/LinkedInB.png'
             width={25}
             height={25}
@@ -36,7 +36,7 @@ export default function Contact() {
             <h2>Sierra Laurent</h2>
         </div></Link>
         <Link href='https://github.com/sierralaurent'>
-          <div className={'flex flex-row items-center gap-2 hover:scale-110 transition-transform text-base'}>
+          <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
             className={'py-3'}
             src='/images/icons/Black/GithubB.png'
@@ -47,7 +47,7 @@ export default function Contact() {
             <h2>sierralaurent</h2>
             </div></Link>
         <Link href=''>
-        <div className={'flex flex-row items-center gap-2 hover:scale-110 transition-transform text-base'}>
+        <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
             className={'py-3'}
             src='/images/icons/Black/GoogleB.png'

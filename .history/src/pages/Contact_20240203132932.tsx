@@ -25,9 +25,9 @@ export default function Contact() {
 
       <div className={'flex tablet:flex-col tablet:items-center min-w-full flex-row m-24 p-10 justify-between'}>
       <Link href='https://www.linkedin.com/in/sierra-laurent-59821226a/'>
-        <div className={'flex flex-row items-center gap-2 hover:scale-110 transition-transform text-base'}>
+        <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
-            className={'py-3 '}
+            className={'py-3'}
             src='/images/icons/Black/LinkedInB.png'
             width={25}
             height={25}
@@ -36,7 +36,7 @@ export default function Contact() {
             <h2>Sierra Laurent</h2>
         </div></Link>
         <Link href='https://github.com/sierralaurent'>
-          <div className={'flex flex-row items-center gap-2 hover:scale-110 transition-transform text-base'}>
+          <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
             className={'py-3'}
             src='/images/icons/Black/GithubB.png'
@@ -47,7 +47,7 @@ export default function Contact() {
             <h2>sierralaurent</h2>
             </div></Link>
         <Link href=''>
-        <div className={'flex flex-row items-center gap-2 hover:scale-110 transition-transform text-base'}>
+        <div className={'flex flex-row items-center gap-2 hover:text-Sage text-base'}>
             <Image
             className={'py-3'}
             src='/images/icons/Black/GoogleB.png'
