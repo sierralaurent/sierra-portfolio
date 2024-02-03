@@ -2,11 +2,15 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Notification from '@/components/notification'
+import Card from '@/components/card'
 
 import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
+
+  const items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"];
+
   return (
     <>
     <Head>
@@ -17,6 +21,11 @@ export default function Home() {
     <NavBar /> 
     <Notification />
     <main className={`flex min-h-screen flex-col items-center text-black gap-20`}>
+    <div className="App">
+      {items.map((item, i) => (
+        <Card key={i} text={item} index={i} />
+      ))}
+    </div>
       <div className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}>
       <Image
           className={'py-3 layout-fill objectFit-cover height-auto'}

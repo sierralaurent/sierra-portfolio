@@ -14,22 +14,13 @@ export default function MAS() {
       </Head>
     <NavBar /> 
     <main className={`flex min-h-screen flex-col items-center text-black`}>
-        <div className={'flex flex-col items-center'}>
         <Image
-            className={'hover:scale-110 transition-transform'}
+            className={'py-3 hover:scale-110 transition-transform'}
             src='/images/MAS/MAS_Horizontal.svg'
             width={400}
-            height={100}
+            height={400}
             alt='Malone Auto Spa Logo'
         />
-        <Image
-            className={' w-full'}
-            src='/images/MAS/MAS-3screen-mockup.png'
-            width={600}
-            height={600}
-            alt='Can Mock Up'
-        />
-        </div>
         <div className={'flex flex-col max-w-6xl gap-10 items-center mx-48  tablet:mx-6 tablet-m-10'}>
             <div className={'flex flex-col gap-5 text-center'}>
                 <h1 className={'text-5xl font-bold'}>Malone Auto Spa</h1>

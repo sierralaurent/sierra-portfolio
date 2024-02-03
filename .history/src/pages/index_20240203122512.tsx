@@ -2,7 +2,7 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Notification from '@/components/notification'
-
+import Background from '@/components/background'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -71,7 +71,7 @@ export default function Home() {
     </div>
     </main>
     <Footer />
-
+    <Background />
     </>
   )
 }

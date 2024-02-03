@@ -2,6 +2,7 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Notification from '@/components/notification'
+import card from '@/components/card'
 
 import Head from 'next/head'
 import Link from 'next/link'

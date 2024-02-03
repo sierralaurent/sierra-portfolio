@@ -14,22 +14,13 @@ export default function MAS() {
       </Head>
     <NavBar /> 
     <main className={`flex min-h-screen flex-col items-center text-black`}>
-        <div className={'flex flex-col items-center'}>
         <Image
-            className={'hover:scale-110 transition-transform'}
+            className={'py-3 hover:scale-110 transition-transform'}
             src='/images/MAS/MAS_Horizontal.svg'
             width={400}
-            height={100}
+            height={400}
             alt='Malone Auto Spa Logo'
         />
-        <Image
-            className={' w-full'}
-            src='/images/MAS/MAS-3screen-mockup.png'
-            width={600}
-            height={600}
-            alt='Can Mock Up'
-        />
-        </div>
         <div className={'flex flex-col max-w-6xl gap-10 items-center mx-48  tablet:mx-6 tablet-m-10'}>
             <div className={'flex flex-col gap-5 text-center'}>
                 <h1 className={'text-5xl font-bold'}>Malone Auto Spa</h1>
@@ -67,39 +58,17 @@ export default function MAS() {
             <p className={'text-lg'}>Customer personas lists the do’s and don’t as well as scenarios of a fictional character.</p>
         </div>
         <div className={'flex flex-row gap-10'}>
-        <Image
-                className={'shadow-2xl'}
-                src='/images/MAS/MAS-CustomerPersona.png'
-                width={800}
-                height={800}
-                alt='Ideation of PicTok'
-            />
+            
         </div>
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Results</h1>
-        </div>
-        <div className={'flex flex-row gap-10 tablet:flex-col  '}>
-            <Image
-                className={'shadow-2xl'}
-                src='/images/MAS/home-mockup.png'
-                width={400}
-                height={400}
-                alt='Ideation of PicTok'
-            />
-            <Image
-                className={'shadow-2xl'}
-                src='/images/MAS/contact-mockup.png'
-                width={400}
-                height={400}
-                alt='Ideation of PicTok'
-            />
         </div>
         <p className={'text-lg'}>The Malone Auto Spa website is still in active development, launching certain sections of the website in phases. In the next phase, we will focus on the gallery of the customer before and after photos, as well as a blog on any frequently asked questions we get along the way.</p>
             <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Extras</h1>
             <p className={'text-lg'}>Check out some extra work done for Malone Auto Spa in addition to the website.</p>
         </div>
-        <div className={'flex flex-row tablet:flex-col  '}>
+        <div className={'flex flex-row tabelt:flex-col  '}>
             <Image
                 className={'shadow-2xl'}
                 src='/images/MAS/businessCard.png'

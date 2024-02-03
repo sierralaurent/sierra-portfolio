@@ -25,7 +25,7 @@ const BlurredImageWarning: React.FC<BlurredImageWarningProps> = ({ blurredImage,
             height={275}
             priority={false}
           />
-          <div className={'absolute top-24 left-8 px-4 text-center '}>
+          <div className={'absolute top-24 left-8 px-4 text-center shadow-2xl'}>
              <p className="text-red-500 text-lg font-bold mt-2">🚨BUG WARNING🚨</p>
              <p className="text-red-500 font-bold mt-2">Click If You Dare</p>
             </div>

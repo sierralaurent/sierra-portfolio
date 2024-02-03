@@ -2,7 +2,6 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Notification from '@/components/notification'
-
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -15,8 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <NavBar /> 
-    <Notification />
+    
     <main className={`flex min-h-screen flex-col items-center text-black gap-20`}>
+    <Notification />
       <div className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}>
       <Image
           className={'py-3 layout-fill objectFit-cover height-auto'}
@@ -71,7 +71,6 @@ export default function Home() {
     </div>
     </main>
     <Footer />
-
     </>
   )
 }

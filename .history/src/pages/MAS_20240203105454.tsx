@@ -19,7 +19,7 @@ export default function MAS() {
             className={'hover:scale-110 transition-transform'}
             src='/images/MAS/MAS_Horizontal.svg'
             width={400}
-            height={100}
+            height={200}
             alt='Malone Auto Spa Logo'
         />
         <Image

@@ -1,3 +1,4 @@
+import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
@@ -38,7 +39,13 @@ export default function Home() {
         </div>
       <div className={'flex flex-col items-center gap-10'}>
       <h1 className={'text-3xl font-bold self-start pl-10'}>Recent Projects</h1>
-    <div className={'tablet:flex-col tablet:max-w-sm max-w-4xl bg-Sage text-white flex flex-row m-10 gap-8 tablet:gap-4 items-center rounded-2xl'}>
+      <AnimatePresence>
+      <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}
+          >
       <Image
         className={'desktop:rounded-l-lg tablet:rounded-t-lg'}
         src='/images/PicTok/PicTok-MockUp.png'
@@ -51,7 +58,8 @@ export default function Home() {
           <p>A photo sharing app that targets visually impaired users by utilizing image recognition technology to enhance the experience of photo sharing with sound cues and text to speech. </p>
           <Link href="/PicTok"><button className={'bg-Emerald text-white p-3 text-2xl rounded-lg hover:bg-Emerald hover:scale-110 transition-transform'}>See More</button></Link>
         </div>
-    </div>
+        </motion.div>
+        </AnimatePresence>
     <div className={'tablet:flex-col tablet:max-w-sm max-w-4xl text-white bg-Emerald text-right flex flex-row gap-8 tablet:gap-4 m-10 items-center rounded-2xl'}>
         <div className={'flex flex-col gap-10 p-10'}>
           <h1 className={'text-3xl font-semibold'}>New Habits</h1>
@@ -71,7 +79,6 @@ export default function Home() {
     </div>
     </main>
     <Footer />
-
     </>
   )
 }

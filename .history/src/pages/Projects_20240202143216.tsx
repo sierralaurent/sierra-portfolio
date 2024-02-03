@@ -49,7 +49,7 @@ export default function Projects() {
     <div className={'tablet:flex-col max-w-4xl tablet:max-w-sm bg-Sage text-white flex flex-row gap-8 tablet:gap-4 m-10 mx-20 items-center rounded-2xl'}>
       <Image
         className={'desktop:rounded-l-2xl tablet:rounded-t-2xl'}
-        src='/images/MAS/home-mockup.png'
+        src='/images/MAS/MASMockup.png'
         width={500}
         height={500}
         alt='Malone Auto Spa MockUp'

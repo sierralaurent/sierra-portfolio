@@ -13,7 +13,7 @@ const optionsWithLinks = [
   return (
     <>
     <main className={`flex min-w-screen justify-between p-6 bg-Emerald items-center text-xl `}>
-      <div className={'desktop:hidden tablet:z-50'}>
+      <div className={'desktop:hidden'}>
       <Dropdown items={optionsWithLinks} />
       </div>
       <div className={'flex flex-row gap-x-5 tablet:hidden mobile:hidden'}>

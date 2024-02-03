@@ -2,7 +2,6 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Notification from '@/components/notification'
-
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -14,8 +13,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <NavBar /> 
     <Notification />
+    <NavBar /> 
+    
     <main className={`flex min-h-screen flex-col items-center text-black gap-20`}>
       <div className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}>
       <Image
@@ -71,7 +71,6 @@ export default function Home() {
     </div>
     </main>
     <Footer />
-
     </>
   )
 }
