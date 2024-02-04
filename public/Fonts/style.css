@@ -20,12 +20,12 @@
   @font-face {
     font-family: 'Montserrat-Semibold';
     font-style: normal;
-    font-weight: 550; /* Bold */
+    font-weight: 550; /* SemiBold */
     src: local('Montserrat Semibold'), local('Montserrat-Semibold'),
          url('/fonts/montserrat-bold.ttf') format('ttf'), /* Modern Browsers */
          url('/fonts/montserrat-bold.ttf') format('ttf'); /* Older Browsers */
   }
   
   body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat';
   }

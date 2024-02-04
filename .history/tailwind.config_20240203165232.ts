@@ -8,13 +8,13 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sansiserif': ['Montserrat'],
+      'sans': ['Montserrat'],
       'Montserrat': ['Montserrat'],
       
     },
     extend: {
       fontFamily: {
-        custom: ['Montserrat', 'Sans-Serif']
+        custom: ['Montserrat', 'Sans', 'Sans-Serif']
       },
       colors: {
         'Emerald':'#244B5A',
