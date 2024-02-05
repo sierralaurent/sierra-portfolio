@@ -15,6 +15,11 @@
   background: #85AF9A;
 }
 
+::selection {
+  color: black;
+  background-color: #85AF9A;
+}
+
 @keyframes slideLeftToRight {
   0% {
     transform: translateX(-100%);

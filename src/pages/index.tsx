@@ -2,7 +2,7 @@ import Image from 'next/image'
 import NavBar from '@/components/navBar'
 import Footer from '@/components/footer'
 import Notification from '@/components/notification'
-
+import AnimatedSection from '@/components/animatedDiv'
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -17,6 +17,7 @@ export default function Home() {
     <NavBar /> 
     <Notification />
     <main className={`flex min-h-screen flex-col items-center text-black gap-20`}>
+      <AnimatedSection>
       <div className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}>
       <Image
           className={'py-3 layout-fill objectFit-cover height-auto'}
@@ -31,7 +32,7 @@ export default function Home() {
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
         </div>
       </div>
-      
+      </AnimatedSection>
       <div className={'flex flex-col gap-10 items-center my-8'}>
           <h1 className={'text-3xl font-semibold'}>Take a look around</h1>
           <h2 className={'text-xl'}>Let me know if you see anything you like</h2>
