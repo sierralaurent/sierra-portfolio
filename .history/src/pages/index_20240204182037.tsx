@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         <Image
         className={'desktop:rounded-r-lg tablet:rounded-b-lg'}
-        src='/images/NewHabits/mockup.png'
+        src='/images/NewHabits/NewHabits-Mockup.png'
         width={400}
         height={400}
         alt='New Habits MockUp'
