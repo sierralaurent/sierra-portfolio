@@ -23,11 +23,11 @@ export default function NewHabits() {
             alt='Hops and Pigs Logo'
         />
         <Image
-            className={' w-full'}
-            src='/images/NewHabits/NewHabits-MockupLong.png'
+            className={'w-full'}
+            src='/images/NewHabits/newhabits-3phones.png'
             width={600}
             height={600}
-            alt='Can Mock Up'
+            alt='New Habits 3 Screens Mock Up'
         />
         <div className={'flex flex-col max-w-6xl p-12 gap-10 items-center m-20 mx-48 tablet:mx-6 tablet-m-5'}>
             <div className={'flex flex-col gap-5 items-center text-center'}>
@@ -106,13 +106,15 @@ export default function NewHabits() {
         <div className={'flex flex-col w-full items-start gap-6'}>
             <h1 className={'text-3xl font-semibold'}>Results</h1>
         </div>
+        <h1 className={'font-bold text-3xl'}>Try it Yourself!</h1>
+        <Link href="https://newhabits.vercel.app/"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg  hover:scale-110 transition-transform'}>View App</button></Link>
         <p className={'text-lg'}>Finishing the app is always rewarding, but it is never truly finished as there is always room for more features and constant updates. Ending with a clean, flowing app where users can test themselves on their substance use and even play a game is something unique and will always be remembered, with the extra help of Humphrey the whale.</p>
-        <div className={'flex flex-row items-center gap-20'}>
+        <div className={'flex flex-row items-center'}>
             <Image
-                className={'shadow-2xl rounded-2xl'}
-                src='/images/NewHabits/NewHabits-Screens/Welcome-Page.png'
-                width={200}
-                height={200}
+                className={''}
+                src='/images/NewHabits/welcome-phone.png'
+                width={600}
+                height={600}
                 alt='Ideation of PicTok'
             />
         </div>

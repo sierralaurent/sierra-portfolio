@@ -40,7 +40,7 @@ export default function Projects() {
         </div>
         <Image
         className={'desktop:rounded-r-2xl tablet:rounded-b-2xl'}
-        src='/images/NewHabits/NewHabits-MockUp.png'
+        src='/images/NewHabits/newhabits-mockup.png'
         width={400}
         height={400}
         alt='New Habits MockUp'
@@ -67,7 +67,7 @@ export default function Projects() {
           <Link href="/hops&pigs"><button className={'bg-Sage text-white p-3 text-2xl rounded-lg hover:scale-110 transition-transform'}>See More</button></Link>
         </div>
           <Image
-          className={'desktop:rounded-l-2xl tablet:rounded-b-2xl'}
+          className={'desktop:rounded-r-2xl tablet:rounded-b-2xl'}
           src='/CanMockup/CanMockup01.png'
           width={400}
           height={400}

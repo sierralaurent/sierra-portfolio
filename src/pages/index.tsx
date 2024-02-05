@@ -31,6 +31,13 @@ export default function Home() {
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
         </div>
       </div>
+      <div className={'flex flex-col gap-2'}>
+        <h1 className={'text-3xl font-bold py-3'}>I am a...</h1>
+        <p className={'text-xl'}>UI/UX Designer</p>
+        <p className={'text-xl'}>Brand Designer</p>
+        <p className={'text-xl'}>Graphic Designer</p>
+        <p className={'text-xl'}>Front-End Web Developer</p>
+      </div>
       <div className={'flex flex-col gap-10 items-center my-8'}>
           <h1 className={'text-3xl font-semibold'}>Take a look around</h1>
           <h2 className={'text-xl'}>Let me know if you see anything you like</h2>
@@ -41,7 +48,7 @@ export default function Home() {
     <div className={'tablet:flex-col tablet:max-w-sm max-w-4xl bg-Sage text-white flex flex-row m-10 gap-8 tablet:gap-4 items-center rounded-2xl'}>
       <Image
         className={'desktop:rounded-l-lg tablet:rounded-t-lg'}
-        src='/images/PicTok/PicTok-MockUp.png'
+        src='/images/PicTok/pictok-mockup.png'
         width={400}
         height={400}
         alt='PicTok MockUp'

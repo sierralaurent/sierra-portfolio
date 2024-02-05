@@ -20,14 +20,14 @@ export default function PicTok() {
             src='/images/PicTok/PicTokLogo.png'
             width={150}
             height={150}
-            alt='Hops and Pigs Logo'
+            alt='PicTok Logo'
         />
         <Image
             className={' w-full'}
-            src='/images/PicTok/PicTok-MockUpLong.png'
+            src='/images/PicTok/pictok-3phones.png'
             width={600}
             height={600}
-            alt='Can Mock Up'
+            alt='PicTok Phone MockUp'
         />
         <div className={'flex flex-col max-w-6xl p-12 gap-10 items-center m-20 mx-48'}>
             <div className={'flex flex-col gap-5 text-center'}>
@@ -186,10 +186,10 @@ export default function PicTok() {
         <p className={'text-lg'}>Getting a wonderful, simple app that can bring the experience of photos to those who may not be familiar with it was a fun journey, with many lessons learned. PicTok is a movement towards inclusivity, with the mission to provide a platform where every image tells a story meant for everyone.</p>
         <div className={'flex flex-row items-center gap-20'}>
             <Image
-                className={'shadow-2xl rounded-2xl'}
-                src='/images/PicTok/PicTok-Screens/Home.png'
-                width={200}
-                height={200}
+                className={''}
+                src='/images/PicTok/home-phone.png'
+                width={700}
+                height={700}
                 alt='Ideation of PicTok'
             />
         </div>

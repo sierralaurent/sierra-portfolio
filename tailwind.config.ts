@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'sansiserif': ['Montserrat'],
+      'Sans-Serif': ['Montserrat'],
       'Montserrat': ['Montserrat'],
       
     },
