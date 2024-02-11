@@ -70,7 +70,7 @@ export default function Projects() {
       </FadeIn>
       <FadeIn index={7}>
         <div className={'tablet:flex-col max-w-4xl tablet:max-w-sm text-white bg-Emerald text-right flex flex-row gap-8 tablet:gap-4 m-20 items-center rounded-2xl'}>
-            <div className={'flex flex-col items-end gap-10 p-10 tablet:p-5'}>
+            <div className={'flex flex-col gap-10 p-10 tablet:p-5'}>
               <h1 className={'text-3xl font-semibold '}>Hops & Pigs Brewery</h1>
               <p>A fictional craft beer brewery imagined by myself, Hops & Pigs Brewery wanted to stand out in the never-ending craft beer aisle and do something different. </p>
               <Link href="/hops&pigs"><Button backgroundColor="Sage">See More</Button></Link>

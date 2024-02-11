@@ -33,10 +33,16 @@ export default function Home() {
         <div className={'flex flex-col gap-10'}>
           <h1 className={'text-5xl font-semibold'}>Hi, I'm Sierra</h1>
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
-          
         </div>
       </div>
       </AnimatedSection>
+      <div className={'max-w-4xl flex-flex-col gap-8'}>
+        <h1 className={'text-5xl font-bold pb-3'}>I am a...</h1>
+        <li className={'text-lg font-semibold'}>UI/UX Deisgner</li>
+        <li className={'text-lg font-semibold'}>Front End Web Developer</li>
+        <li className={'text-lg font-semibold'}>Brand Deisgner</li>
+        <h1 className={'text-3xl font-bold pb-3'}>And more...</h1>
+      </div>
       <AnimatedSection>
         <div className={'flex flex-col gap-10 items-center my-8'}>
             <h1 className={'text-3xl font-semibold'}>Take a look around</h1>

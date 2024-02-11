@@ -19,6 +19,7 @@ export default function Home() {
       </Head>
     <NavBar /> 
     <Notification />
+
     <main className={`flex min-h-screen flex-col items-center text-black gap-20`}>
       <AnimatedSection >
       <div className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}>
@@ -33,10 +34,10 @@ export default function Home() {
         <div className={'flex flex-col gap-10'}>
           <h1 className={'text-5xl font-semibold'}>Hi, I'm Sierra</h1>
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
-          
         </div>
       </div>
       </AnimatedSection>
+      
       <AnimatedSection>
         <div className={'flex flex-col gap-10 items-center my-8'}>
             <h1 className={'text-3xl font-semibold'}>Take a look around</h1>
@@ -88,15 +89,18 @@ export default function Home() {
             height={400}
             alt='Elgert Controls Business Cards'
             />  
+
       </FadeIn>
       <FadeIn index={4}>
+        
             <Image
             className={'rounded-lg shadow-2xl'}
             src='/images/MAS/businessCard.png'
             width={400}
             height={400}
             alt='Elgert Controls Business Cards'
-            /> 
+            />  
+
       </FadeIn>
     </div>
     </div>

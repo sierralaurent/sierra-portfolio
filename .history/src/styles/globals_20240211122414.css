@@ -62,7 +62,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(to right, #a5d6bd, #ffffff, #D0CFCD);
+  background: linear-gradient(to right, #85AF9A, #ffffff, #D0CFCD);
   background-size: 200% 200%;
   animation: gradient 5s linear infinite;
 }

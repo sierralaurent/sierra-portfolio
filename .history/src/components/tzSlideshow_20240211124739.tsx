@@ -52,7 +52,7 @@ const TzSlideshow: React.FC = () => {
         {images.map((_, index) => (
           <div
             key={index}
-            className={`h-6 w-6 rounded-full ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'}`}
+            className={`h-8 w-8 rounded-full ${index === currentSlide ? 'bg-Sage' : 'bg-gray-300'}`}
             onClick={() => goToSlide(index)}
           />
         ))}

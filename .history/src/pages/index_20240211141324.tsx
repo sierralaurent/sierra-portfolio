@@ -7,6 +7,7 @@ import FadeIn from '@/components/fadeIn'
 import Head from 'next/head'
 import Link from 'next/link'
 import Button from '@/components/button'
+import FadeInList from '@/components/fadeInList'
 
 
 export default function Home() {
@@ -33,9 +34,9 @@ export default function Home() {
         <div className={'flex flex-col gap-10'}>
           <h1 className={'text-5xl font-semibold'}>Hi, I'm Sierra</h1>
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
-          
         </div>
       </div>
+      <FadeInList />
       </AnimatedSection>
       <AnimatedSection>
         <div className={'flex flex-col gap-10 items-center my-8'}>

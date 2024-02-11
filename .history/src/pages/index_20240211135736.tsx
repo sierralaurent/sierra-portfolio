@@ -19,6 +19,7 @@ export default function Home() {
       </Head>
     <NavBar /> 
     <Notification />
+
     <main className={`flex min-h-screen flex-col items-center text-black gap-20`}>
       <AnimatedSection >
       <div className={'flex flex-row tablet:flex-col items-center pt-10 gap-20 '}>
@@ -33,10 +34,10 @@ export default function Home() {
         <div className={'flex flex-col gap-10'}>
           <h1 className={'text-5xl font-semibold'}>Hi, I'm Sierra</h1>
           <h2 className={'text-3xl'}>Welcome to my Portfolio</h2>
-          
         </div>
       </div>
       </AnimatedSection>
+      
       <AnimatedSection>
         <div className={'flex flex-col gap-10 items-center my-8'}>
             <h1 className={'text-3xl font-semibold'}>Take a look around</h1>
@@ -79,26 +80,17 @@ export default function Home() {
       </div>
     </FadeIn>
     <h1 className={'text-3xl font-bold self-start pl-10 p-10'}>Recently Added to Gallery</h1>
-    <div className={'flex flex-row tablet:flex-col mb-20 gap-8 max-w-4xl'}>
-      <FadeIn index={3}>
-            <Image
-            className={'rounded-lg shadow-2xl'}
-            src='/images/gallery/elgertControls-cards.png'
-            width={400}
-            height={400}
-            alt='Elgert Controls Business Cards'
-            />  
-      </FadeIn>
-      <FadeIn index={4}>
-            <Image
-            className={'rounded-lg shadow-2xl'}
-            src='/images/MAS/businessCard.png'
-            width={400}
-            height={400}
-            alt='Elgert Controls Business Cards'
-            /> 
-      </FadeIn>
-    </div>
+    <FadeIn index={3}>
+      <div className={'tablet:flex-col tablet:max-w-sm max-w-4xl text-white bg-Emerald text-right flex flex-row gap-8 tablet:gap-4 m-10 items-center rounded-2xl'}>
+          <Image
+          className={'desktop:rounded-r-lg tablet:rounded-b-lg'}
+          src='/images/gallery/elgertControls-cards.png'
+          width={400}
+          height={400}
+          alt='New Habits MockUp'
+          />  
+      </div>
+    </FadeIn>
     </div>
     </main>
     <Footer />

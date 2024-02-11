@@ -21,7 +21,7 @@ const FadeIn: React.FC<FadeInProps> = ({ index, children }) => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: .75 * index,
+        delay: .5 * index,
       },
     },
   };

@@ -80,7 +80,7 @@ export default function Home() {
     </FadeIn>
     <h1 className={'text-3xl font-bold self-start pl-10 p-10'}>Recently Added to Gallery</h1>
     <div className={'flex flex-row tablet:flex-col mb-20 gap-8 max-w-4xl'}>
-      <FadeIn index={3}>
+      <FadeIn index={1}>
             <Image
             className={'rounded-lg shadow-2xl'}
             src='/images/gallery/elgertControls-cards.png'
@@ -89,7 +89,7 @@ export default function Home() {
             alt='Elgert Controls Business Cards'
             />  
       </FadeIn>
-      <FadeIn index={4}>
+      <FadeIn index={2}>
             <Image
             className={'rounded-lg shadow-2xl'}
             src='/images/MAS/businessCard.png'
