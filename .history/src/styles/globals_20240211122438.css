@@ -1,0 +1,68 @@
+@import "tailwindcss/base";
+
+*::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #D0CFCD;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: '#D0CFCD';
+  border-radius: 20px;
+  background: #85AF9A;
+}
+
+::selection {
+  color: black;
+  background-color: #85AF9A;
+}
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --Emerald: '#244B5A';
+  --Sage: '#85AF9A';
+  --Cool-Gray: '#D0CFCD';
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --Emerald: '#244B5A';
+    --Sage: '#85AF9A';
+    --Cool-Gray: '#D0CFCD';
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #a5d6bd, #ffffff, #D0CFCD);
+  background-size: 200% 200%;
+  animation: gradient 5s linear infinite;
+}

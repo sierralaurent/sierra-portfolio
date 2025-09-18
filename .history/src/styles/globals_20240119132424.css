@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --emerald-rgb: 36, 75, 90;
+  --sage-rgb: 133, 175, 154;
+  --coolGrey-rgb: 208, 207, 205;
+  --white-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --emerald-rgb: 36, 75, 90;
+    --sage-rgb: 133, 175, 154;
+    --coolGrey-rgb: 208, 207, 205;
+    --white-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--white-rgb));
+  background: rgb(var(--white-rgb))
+}
